@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 2em;
+}
+
+h2 {
+    color: #333;
+}
+
+
+.project {
+    margin-bottom: 1em;
+}
+   
+.p{
+    width:400px;
+    
+    font-style:Georgia;
+    margin-left: 40px;
+}
+.img{
+    height: 200px;
+    width: 100px;
+    object-fit: cover;
+    border-radius:50%;
+    border:none;
+}
+.what{
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+  
+}
+.insta{
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+  
+
+}
+.fa{
+    margin-left: 20px;
+    display: inline-block;
+}
+.Contact{
+    background-color:rgb(88, 27, 88);
+    color:white;
+    border:30px;
+    height:50px;
+    width: 105px;
+    border-radius: 2px;
+    cursor:crosshair;
+    margin-right: 15px;
+    font-size: 15px;
+    transition: opacity 1s;
+    vertical-align: top ;
+    margin-left: 20px;
+    margin-bottom: 40px;
+
+
+
+}
+.Contact:hover{
+opacity: .4;
+}
+.Contact:active{
+opacity: 0.4;
+background-color: green;
+}
+
+.h{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:inline-block;
+}
+ul,img {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    color:black;
+    display:inline-block;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.csss{
+    margin-left: 500px;
+    border:none;
+    vertical-align: top;
+
+}
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  ul.square {
+    list-style-type: square;
+  }
+    

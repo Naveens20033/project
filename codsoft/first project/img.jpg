@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Converting a Website Design Into HTML and CSS Code - Fronty</title>
+<meta name="title" content="Converting a Website Design Into HTML and CSS Code - Fronty" />
+<meta name="description" content="Converting your website design into HTML and CSS code is an essential step in web development. By breaking down the design into HTML structures and applying styles using CSS,">
+<meta name="keywords" content="None">
+
+<meta property="og:title" content="Converting a Website Design Into HTML and CSS Code">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fronty.com//post/converting-a-website-design-into-html-and-css-code">
+<meta property="og:image" content="https://fronty.com///static/uploads/ux books/pexels-markus-spiske-1921326.jpg">
+<meta property="og:description" content="None">
+<meta property="og:image:width" content="1800">
+<meta property="og:image:height" content="945">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@fronty_com">
+<meta name="twitter:creator" content="@vtigranv">
+<meta name="twitter:title" content="Converting a Website Design Into HTML and CSS Code">
+<meta name="twitter:description" content="None">
+<meta name="twitter:image" content="https://fronty.com//static/uploads/ux books/pexels-markus-spiske-1921326.jpg">
+<link rel="shortcut icon" href="https://fronty.com/static/icons/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="https://fronty.com/static/icons/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://fronty.com/static/icons/favicon-32x32.png" />
+<link rel="manifest" href="https://fronty.com/static/icons/manifest.json" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#fff" />
+<meta name="application-name" content="Fronty" />
+<link rel="apple-touch-icon" sizes="57x57" href="/static/icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/static/icons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/static/icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/static/icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/static/icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/static/icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/static/icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/static/icons/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="/static/icons/apple-touch-icon-167x167.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon" sizes="1024x1024" href="/static/icons/apple-touch-icon-1024x1024.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Fronty" />
+<link rel="apple-touch-startup-image" href="/static/icons/apple-touch-startup-image-750x1294.png" />
+<link rel="icon" type="image/png" sizes="228x228" href="/static/icons/coast-228x228.png" />
+<meta name="msapplication-TileColor" content="#fff" />
+<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png" />
+<meta name="msapplication-config" content="/icons/browserconfig.xml" />
+<link rel="yandex-tableau-widget" href="/static/icons/yandex-browser-manifest.json" />
+<link rel="stylesheet" href="/static/css/style.min.css" />
+<link rel="canonical" href="https://fronty.com/converting-a-website-design-into-html-and-css-code" />
+</head>
+<body>
+<nav class="navbar navbar-main navbar-expand-lg pt-lg-4 navbar-light">
+<div class="container">
+<a href="/" class="navbar-brand"><img src="/static/img/fronty-logo-light.svg" data-replace-on-sticky="/static/img/fronty-logo-light.svg" alt="Fronty" height="23" /></a>
+<button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ms-auto collapsed">
+<span class="navbar-toggler-icon"></span></button>
+<a href="https://app.fronty.com/register" class="btn btn-primary text-white nav-link border-0 font-size-14 pe-3 fw-semibold px-md-4 ms-2 me-1 d-none d-xxs-block">Get Started
+</a>
+<div id="navbarNav" class="collapse navbar-collapse justify-content-end font-size-14 text-primary">
+<ul itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="px-2 px-lg-0 justify-content-end navbar-nav">
+<li itemprop="name" class="nav-item">
+<a href="/technology" class="nav-link px-lg-3 me-lg-1 px-1 px-lg-0" itemprop="url">
+Technology
+</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="/pricing" class="nav-link px-lg-3 me-lg-1 px-1 px-lg-0" itemprop="url">
+Pricing
+</a>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="/features" class="nav-link px-lg-3 me-lg-1 px-1 px-lg-0" itemprop="url">
+Features
+</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle ps-1 ps-lg-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Resources
+</a>
+<div class="dropdown-menu font-size-14 rounded-3 shadow border-0" aria-labelledby="navbarDropdown">
+
+<a class="dropdown-item py-lg-2 fw-semibold" href="/faq">FAQs</a>
+<a class="dropdown-item py-lg-2 fw-semibold" href="/guidelines">Usage Guidelines</a>
+</div>
+</li>
+<li itemprop="name" class="nav-item">
+<a href="/blog" class="nav-link home-link px-lg-3 me-lg-1 px-1 px-lg-0" itemprop="url">
+Blog
+</a>
+</li>
+<li class="nav-item mt-2 mb-3 mb-lg-0 mt-lg-0 ms-lg-3 d-xxs-none">
+<a href="https://app.fronty.com/register" class="btn btn-primary btn-shine rounded-pill py-2  d-inline-flex align-items-center font-size-14 fw-semibold text-nowrap px-3">
+Get Started
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container pt-5">
+<section class="mt-5 mb-4 post-content fw-light">
+<h1 class="mt-4 fw-medium font-size-28">Converting a Website Design Into HTML and CSS Code</h1>
+<small class="text-muted opacity-75 fw-light">
+<i class="fa fa-clock font-size-10 opacity-25"></i>
+Jun 07, 2023&nbsp;
+<i class="fa fa-eye font-size-11 opacity-25 ms-2"></i>
+8818
+seen
+</small>
+<br>
+<br>
+<img src="/static/img/1x1.png" data-src="/static/uploads/ux books/pexels-markus-spiske-1921326.jpg" alt="Converting a Website Design Into HTML and CSS Code" class="w-100 mb-4 lazy" style="object-fit: cover; max-height: 500px;
+                         ">
+<p class="text-justify">
+<h2 dir="ltr">How to Convert the Design to HTML&nbsp;</h2>
+<p dir="ltr"><strong><a href="https://fronty.com/convert-your-design-to-html-and-css-fronty-ai-converter/">Converting a website design into HTML and CSS</a></strong> code is a crucial step in the web development process. By translating the visual elements of your website into code, you can bring your design to life and make it functional for users. In this article, we will guide you through the process of converting your website design into HTML and CSS code, ensuring that your website looks and performs as intended.</p>
+<p dir="ltr">The first step in converting your website design into HTML code is to analyze the design and break it down into its constituent parts. Identify the different sections, such as the header, navigation, content area, and footer. Once you have a clear understanding of the structure, follow these steps:</p>
+<ol>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Create the HTML structure: Start by setting up the basic <strong>HTML structure</strong> using the &lt;!DOCTYPE html&gt; declaration and the &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags. Use semantic HTML tags like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, and &lt;footer&gt; to define the different sections of your website.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Convert the header: Begin by converting the header section of your design. Include the site logo, navigation menu, and any other relevant elements. Use appropriate HTML tags such as &lt;h1&gt; for the site title and &lt;ul&gt; and &lt;li&gt; for the navigation menu items. Apply CSS classes and IDs to elements for styling purposes.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Structure the content area: Next, convert the content area of your design. Identify different sections, such as articles, images, and sidebars, and structure them using HTML tags. Use tags like &lt;article&gt;, &lt;img&gt;, and &lt;div&gt; to define the content structure. Apply appropriate classes and IDs to target specific elements with CSS.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Convert the footer: Finally, convert the footer section of your design. Include any copyright information, social media links, or additional navigation items. Use HTML tags like &lt;footer&gt;, &lt;p&gt;, and &lt;a&gt; to structure and link the content within the footer.</p>
+</li>
+</ol>
+<p dir="ltr" role="presentation">&nbsp;</p>
+<h2 dir="ltr">Styling with CSS</h2>
+<p dir="ltr">&nbsp;Once you have converted your design into an HTML structure, it&#39;s time to style it using CSS. Follow these steps to apply styles and make your website visually appealing:</p>
+<ol>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Create a CSS file: Begin by creating a separate <strong><a href="https://fronty.com/ai-powered-tools-in-software-fronty-ai/">CSS file and linking it to your HTML </a></strong>document using the &lt;link&gt; tag within the &lt;head&gt; section. This ensures that your styles are separated from your HTML code, making it easier to maintain and update in the future.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Identify design elements: Analyze your design and identify the different elements that require styling. This includes fonts, colors, margins, padding, backgrounds, and more. Use CSS selectors, such as class names and IDs, to target specific elements for styling.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Apply styles: Start by setting up a base style for your website, including font styles, background colors, and overall layout. Then, progressively add styles to different sections of your website by targeting the HTML elements using CSS selectors. Use properties like font-family, color, background-color, margin, padding, and display to define the desired styles.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Test and refine: After applying styles, preview your website in a web browser and test its responsiveness and visual appearance. Make adjustments as needed, tweaking the styles until you achieve the desired look and feel.</p>
+</li>
+</ol>
+<p dir="ltr" role="presentation">&nbsp;</p>
+<h2 dir="ltr">Best Practices and Considerations&nbsp;</h2>
+<p dir="ltr">When converting your website design to HTML and CSS, there are some best practices and considerations to keep in mind:</p>
+<ol>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Use semantic HTML: Semantic HTML tags provide meaning to the structure of your web page, making it easier for search engines and assistive technologies to understand your content. Use tags like &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, and &lt;footer&gt; appropriately to convey the purpose of each section.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Optimize for responsiveness: Ensure that your design is responsive and adapts well to different screen sizes. Use CSS media queries to apply different styles based on the viewport width, making your website accessible and user-friendly across various devices.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Maintain code organization: Keep your HTML and CSS code organized and modular. Use indentation, comments, and consistent naming conventions to make it easier for yourself and others to understand and maintain the codebase.</p>
+</li>
+<li aria-level="1" dir="ltr">
+<p dir="ltr" role="presentation">Cross-browser compatibility: Test your website on different browsers to ensure that it displays correctly and functions as intended. Consider using CSS frameworks or polyfills to handle any inconsistencies across browsers.</p>
+</li>
+</ol>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">Well, I can surely say that converting your website design into HTML and CSS code is an essential step in web development. By breaking down the design into HTML structures and applying styles using CSS, you can transform your visual design into a fully functional website. Remember to follow best practices, use semantic HTML, optimize for responsiveness, and keep your code organized. With practice and attention to detail, you&#39;ll be able to convert your website design into beautiful and functional <strong>HTML and CSS code</strong>, creating an engaging user experience on the web.</p>
+<br/>
+<br/>
+&nbsp;
+</p>
+</section>
+<section class="mt-5 pt-md-1">
+<h4 class="border-bottom mt-3 mb-5 fw-bold pb-3">
+<a href="/blog" class="text-black fw-medium" style="text-decoration: none !important;">Popular Posts</a>
+</h4>
+<div class="row">
+<article class="col-lg-4 px-5">
+<a href="/6-top-youtube-channels-to-learn-artificial-intelligence" class="card mx-auto my-5 border-0 rounded-15 overflow-hidden">
+<img height="250" data-src="/static/uploads/new/thumbnail_pexels-freestocksorg-34407.jpg" src="/static/img/1x1.png" class="lazy rounded-15 object-fit-cover" alt="6 Top YouTube Channels to Learn Artificial Intelligence" />
+<div class="px-4 py-3">
+<div class="row rounded-pill align-items-center">
+<div class="col-auto">
+<span class="badge rounded-pill fw-light opacity-25 bg-primary small text-uppercase">BLOG</span>
+</div>
+<div class="col-auto ms-auto">
+<small class="text-muted ms-auto mt-3">Jan 09, 2024</small>
+</div>
+</div>
+<h4 class="mt-4 fw-black font-size-18">6 Top YouTube Channels to Learn Artificial Intelligence</h4>
+</div>
+</a>
+</article>
+<article class="col-lg-4 px-5">
+<a href="/the-top-6-no-code-website-builders-in-2024" class="card mx-auto my-5 border-0 rounded-15 overflow-hidden">
+<img height="250" data-src="/static/uploads/new/thumbnail_pexels-format-1029757_1.jpg" src="/static/img/1x1.png" class="lazy rounded-15 object-fit-cover" alt="The Top 6 No-Code Website Builders In 2024" />
+<div class="px-4 py-3">
+<div class="row rounded-pill align-items-center">
+<div class="col-auto">
+<span class="badge rounded-pill fw-light opacity-25 bg-primary small text-uppercase">BLOG</span>
+</div>
+<div class="col-auto ms-auto">
+<small class="text-muted ms-auto mt-3">Dec 31, 2023</small>
+</div>
+</div>
+<h4 class="mt-4 fw-black font-size-18">The Top 6 No-Code Website Builders In 2024</h4>
+</div>
+</a>
+</article>
+<article class="col-lg-4 px-5">
+<a href="/top-10-web-design-trends-in-2024-make-your-website-smooth" class="card mx-auto my-5 border-0 rounded-15 overflow-hidden">
+<img height="250" data-src="/static/uploads/blog_uploads/thumbnail_pexels-tranmautritam-326514.jpg" src="/static/img/1x1.png" class="lazy rounded-15 object-fit-cover" alt="Top 10 Web Design Trends in 2024: Make Your Website Smooth" />
+<div class="px-4 py-3">
+<div class="row rounded-pill align-items-center">
+<div class="col-auto">
+<span class="badge rounded-pill fw-light opacity-25 bg-primary small text-uppercase">BLOG</span>
+</div>
+<div class="col-auto ms-auto">
+<small class="text-muted ms-auto mt-3">Dec 25, 2023</small>
+</div>
+</div>
+<h4 class="mt-4 fw-black font-size-18">Top 10 Web Design Trends in 2024: Make Your Website Smooth</h4>
+</div>
+</a>
+</article>
+</div>
+</section>
+</div>
+<footer class="footer blue-bg text-white pt-5 font-size-14">
+<div class="container pt-3">
+<div class="row">
+<div class="col col-lg-4 pe-lg-5">
+<img alt="Fronty" src="/static/img/fronty-logo-dark.svg" />
+<h6 class="font-size-14 text-white opacity-50 mt-5">
+Stay tuned for latest updates and new features
+</h6>
+<div class="mc_embed_signup">
+<form action="https://fronty.us17.list-manage.com/subscribe/post?u=4b8586f2b3230f06911106eb7&amp;id=d5a11428ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="validate my-4">
+<div class="mc_embed_signup_scroll row">
+<div class="position-relative mb-3">
+<input type="email" value name="EMAIL" id="mce-EMAIL" placeholder="Enter your email" required="required" data-hj-whitelist class="email text-white form-control py-3 ps-3 pe-5 font-size-12 border-0 border-primary-dark placeholder-light">
+<button type="submit" aria-label="Submit to Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn me-3 text-white position-absolute end-0 top-0 h-100"><i class="fa-solid fa-arrow-right"></i></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<details class="d-block d-md-none mb-4">
+<summary>
+<span class="text-uppercase font-size-16 fw-semibold text-white mb-4">FRONTY RESOURCES</span>
+</summary>
+<ul class="list-unstyled opacity-80 pt-3">
+<li class="mb-3">
+<a href="/features">About Us</a>
+</li>
+<li class="mb-3">
+<a href="/faq">FAQs</a>
+</li>
+<li class="mb-3">
+<a href="/guidelines">Guidelines</a>
+</li>
+<li class="mb-3">
+<a href="https://rubygems.org/gems/fronty-gem">Integration</a>
+</li>
+<li class="mb-3">
+<a href="/pricing">Pricing</a>
+</li>
+<li class="mb-3">
+<a href="/blog">Resources</a>
+</li>
+<li class="mb-3">
+<a href="https://api.fronty.com">API</a>
+</li>
+<li class="mb-3">
+<a href="/guidelines">Guidelines</a>
+</li>
+<li class="mb-3">
+<a href="/status">Status</a>
+</li>
+<li class="mb-3">
+<a href="/privacy">Privacy & Policy</a>
+</li>
+<li class="mb-3">
+<a href="/contacts">Support</a>
+</li>
+<li class="mb-3">
+<a href="/contacts">Contacts</a>
+</li>
+</ul>
+</details>
+<div class="col-md ms-lg-5 d-none d-md-block">
+<h3 class="text-uppercase font-size-16 text-white mb-4">Fronty</h3>
+<ul class="list-unstyled opacity-80">
+<li class="mb-3">
+<a href="/features">About Us</a>
+</li>
+<li class="mb-3">
+<a href="/faq">FAQs</a>
+</li>
+<li class="mb-3">
+<a href="/guidelines">Guidelines</a>
+</li>
+<li class="mb-3">
+<a href="https://rubygems.org/gems/fronty-gem">Integration</a>
+</li>
+<li class="mb-3">
+<a href="/pricing">Pricing</a>
+</li>
+<li class="mb-3">
+<a href="/blog">Resources</a>
+</li>
+</ul>
+</div>
+<div class="col-md d-none d-md-block">
+<h3 class="text-uppercase font-size-16 text-white mb-4">Resources</h3>
+<ul class="list-unstyled opacity-80">
+<li class="mb-3">
+<a href="https://api.fronty.com">API</a>
+</li>
+<li class="mb-3">
+<a href="/status">Status</a>
+</li>
+<li class="mb-3">
+<a href="/contacts">Support</a>
+</li>
+<li class="mb-3">
+<a href="/contacts">Contacts</a>
+</li>
+</ul>
+</div>
+<div class="col-md">
+<h3 class="text-uppercase font-size-16 text-white mb-4 d-none d-md-block">Rewards</h3>
+<a rel="noopener" href="https://www.producthunt.com/posts/fronty?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-fronty" target="_blank"><img src="/static/img/producthunt-1.svg" alt="Fronty - Image to HTML converter powered by AI | ProductHunt" width="250" height="54" /></a>
+<br/>
+<a rel="noopener nofollow" href="https://www.producthunt.com/posts/fronty?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-fronty" target="_blank"><img src="/static/img/producthunt-golden-kitty.png" alt="Fronty - Golden Kitty Finalist" class="mt-3" title="Fronty - Golden Kitty Awards 2019 Finalist" width="250" height="54" /></a>
+</div>
+</div>
+<div class="row align-items-center mt-5">
+<div class="col opacity-80 d-none d-md-block">
+<a href="/privacy">Privacy & Policy</a>
+<span class="opacity-50 mx-3">/</span>
+<a href="/privacy">Terms</a>
+<span class="opacity-50 mx-3">/</span>
+<a href="/guidelines">Guidelines</a>
+</div>
+<div class="d-flex align-items-center justify-content-end">
+<ul class="nav">
+<li class="nav-item mb-0">
+<a href="https://linkedin.com/company/fronty" rel="noopener" aria-label="Linkedin" target="_blank" class="nav-link text-white p-0">
+<span class="fa-stack fa-lg">
+<i class="fa-solid fa-stop fa-stack-2x text-white opacity-10"></i>
+<i class="fab fa-linkedin-in fa-stack-1x fa-inverse text-white font-size-12"></i>
+</span>
+</a>
+</li>
+<li class="nav-item mb-0">
+<a href="https://facebook.com/fronty.me/" rel="noopener" aria-label="Facebook" target="_blank" class="nav-link text-white p-0">
+<span class="fa-stack fa-lg">
+<i class="fa-solid fa-stop fa-stack-2x text-white opacity-10"></i>
+<i class="fab fa-facebook-f fa-stack-1x fa-inverse text-white font-size-12"></i>
+</span>
+</a>
+</li>
+<li class="nav-item mb-0">
+<a href="https://twitter.com/FrontyMe" rel="noopener" aria-label="Twitter" target="_blank" class="nav-link text-white p-0">
+<span class="fa-stack fa-lg">
+<i class="fa-solid fa-stop fa-stack-2x text-white opacity-10"></i>
+<i class="fab fa-twitter fa-stack-1x fa-inverse text-white font-size-12"></i>
+</span>
+</a>
+</li>
+<li class="nav-item mb-0">
+<a href="https://www.instagram.com/frontycom/" rel="noopener" aria-label="Instagram" target="_blank" class="nav-link text-white p-0">
+<span class="fa-stack fa-lg">
+<i class="fa-solid fa-stop fa-stack-2x text-white opacity-10"></i>
+<i class="fab fa-instagram fa-stack-1x fa-inverse text-white font-size-12"></i>
+</span>
+</a>
+</li>
+<li class="nav-item mb-0">
+<a href="https://www.youtube.com/c/Fronty-com" rel="noopener" aria-label="Youtube" target="_blank" class="nav-link text-white p-0">
+<span class="fa-stack fa-lg">
+<i class="fa-solid fa-stop fa-stack-2x text-white opacity-10"></i>
+<i class="fab fa-youtube fa-stack-1x fa-inverse text-white font-size-12"></i>
+</span>
+</a>
+</li>
+</ul>
+<a href="./" class="ms-3"><img alt="Powered by Fronty" src="/static/img/icons/fronty-powered-badge.svg" /></a>
+</div>
+</div>
+<div class="row pt-4 pt-md-0 pb-4">
+<div class="col">
+<p class="opacity-25">
+&copy; 2016-2021 Fronty, Inc. All Rights Reserved &nbsp; | &nbsp; California, USA
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+      window.ga = window.ga || function () {
+        (ga.q = ga.q || []).push(arguments);
+      };
+      ga.l = + new Date();
+      ga("create", "UA-101286668-1", "auto");
+      ga("send", "pageview");
+    </script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+<script>
+      setTimeout(function () {
+        (function (m, e, t, r, i, k, a) {
+          m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+          m[i].l = 1 * new Date();
+          (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a
+            .parentNode
+            .insertBefore(k, a);
+        })(window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+        ym(53409478, "init", {
+          clickmap: true,
+          trackLinks: true,
+          accurateTrackBounce: true,
+          webvisor: true
+        });
+      }, 2500);
+    </script>
+
+
+<script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Fronty",
+        "description": "Image to HTML converter. Convert image to HTML powered by AI. Create websites in minutes.",
+        "url": "https://fronty.com/",
+        "brand": {
+          "@type": "Organization",
+          "name": "Fronty"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+374-77-05-05-04",
+            "contactType": "customer service"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "6412 Matilija Ave",
+          "addressLocality": "Van Nuys",
+          "addressRegion": "CA",
+          "postalCode": "91401",
+          "addressCountry": "US"
+        },
+        "sameAs": ["https://www.instagram.com/frontycom", "https://twitter.com/fronty_com", "https://www.linkedin.com/showcase/fronty/", "https://www.facebook.com/fronty.me", "https://www.youtube.com/c/Fronty-com"]
+      }
+    </script>
+
+<script>/*
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer'
+            ? '&l=' + l
+            : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f
+          .parentNode
+          .insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-W878LFG');
+      */
+    </script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T2RY3VL4M7"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-T2RY3VL4M7');
+    </script>
+<script async="async" src="/static/js/script.min.js"></script>
+<script async="async" src="https://kit.fontawesome.com/6ca1895d0c.js" crossorigin="anonymous"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<script>
+// Load GTM for everyone except PageSpeed Insight Tool
+if(navigator.userAgent.indexOf("Chrome-Lighthouse") == -1) { 
+
+// Google Tag Manager as Payload for all 3rd-party JS
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T6HK3SB');
+// GTM End
+ }
+</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+<meta name="format-detection" content="telephone=no">
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://email.uplers.com/blog/xmlrpc.php" />
+<link rel="shortcut icon" type="image/x-icon" href="https://email.uplers.com/blog/wp-content/themes/uplers/favicon.ico" />
+<link href="https://email.uplers.com/blog/wp-content/themes/uplers/css/fonts.css" type="text/css" rel="stylesheet" />
+<link href="https://email.uplers.com/blog/wp-content/themes/uplers/css/ie.css" type="text/css" rel="stylesheet" />
+<style>
+.header-top { padding:8px 0 !important; }
+.uplers-line{position:absolute;left:0;right:0;margin:0 auto;font-size:14px!important;color:#fff;text-align:center;max-width: auto;z-index: 9;}
+.uplers-line a{text-decoration:underline;color:#fff;}
+.uplers-line a:hover{color:#ffda30;}
+
+.header-top ul.content-listing li:after{top:4px;}
+.header-top ul.content-listing li a img{display:inline-block !important;vertical-align:middle !important} 
+.header-top ul.content-listing li.call-us-head a span{max-width:0;width:0;overflow:hidden;position:relative;display:inline-block;vertical-align:middle;transition: .5s ease-in;-webkit-transition: .5s ease-in;-moz-transition: .5s ease-in;-ms-transition: .5s ease-in;-o-transition: .5s ease-in;}
+.header-top ul.content-listing li.call-us-head a:hover span{color:#ffda30;max-width:107px;width:107px;}
+.header-top ul li a{position: relative; z-index: 9;}
+/* Knowledge center start */
+.tab-header-blogs{display: none;}
+.tab-header-blogs.current{display: block;}
+.tab-header-blogs a.figure-img{display: block;}
+.tabs-nav-list{margin: 0; max-width: 330px; width: 100%; float: right; padding-right: 50px;}
+.tabs-nav-list li{border-bottom: 1px solid #000;}
+.tabs-nav-list li:last-child{border-bottom: 0;}
+.tabs-nav-list li a.current:after{width: 100%!important; opacity: 1;}
+.tabs-nav-list li a.current i.zmdi-chevron-right{display: block;}
+.tabs-nav-list li a i.zmdi-chevron-right{display: none; position: absolute;right: -35px;top: 13px; transition: all ease-in-out 0.2;}
+.tabs-nav-list li.btn-link a:hover i{background: #ffda30; border: 2px solid #ffda30;}
+
+@media (max-width: 1023px) {
+.tab-list-left{width: 100%; padding: 0;}
+.tabs-nav-list{max-width: 100%;}
+.tabs-nav-list li{border-bottom: 0;}
+.tabs-nav-list li a.current i.zmdi-chevron-right,.tabs-nav-list li a i.zmdi-chevron-right{display: none;}
+.tab-detail-right{display: none;}
+}
+/* Knowledge center end */
+
+</style>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Email Design Trends: Adding CSS HTML Animation in Email</title>
+	<meta name="description" content="How to add CSS HTML Animation in Email? If you have questions on CSS HTML Email Animation in your next email campaign get in touch with us now." />
+	<link rel="canonical" href="https://email.uplers.com/blog/css-animation-email/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Email Design Trends: Adding CSS HTML Animation in Email" />
+	<meta property="og:description" content="How to add CSS HTML Animation in Email? If you have questions on CSS HTML Email Animation in your next email campaign get in touch with us now." />
+	<meta property="og:url" content="https://email.uplers.com/blog/css-animation-email/" />
+	<meta property="og:site_name" content="Email Uplers" />
+	<meta property="article:publisher" content="https://www.facebook.com/email.uplers/" />
+	<meta property="article:published_time" content="2022-06-08T13:55:00+00:00" />
+	<meta property="article:modified_time" content="2022-08-23T12:41:03+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content="https://email.uplers.com/blog/wp-content/uploads/2018/02/css-animation-email.jpg" />
+	<meta name="twitter:creator" content="@email_uplers" />
+	<meta name="twitter:site" content="@email_uplers" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Kevin George" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="9 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://email.uplers.com/blog/#website","url":"https://email.uplers.com/blog/","name":"Email Uplers","description":"Email Marketing Blog","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://email.uplers.com/blog/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://email.uplers.com/blog/css-animation-email/#primaryimage","url":"https://email.uplers.com/blog/wp-content/uploads/2018/02/css-animation-email.jpg","contentUrl":"https://email.uplers.com/blog/wp-content/uploads/2018/02/css-animation-email.jpg","width":"1170","height":"427","caption":"css-animation-email"},{"@type":"WebPage","@id":"https://email.uplers.com/blog/css-animation-email/#webpage","url":"https://email.uplers.com/blog/css-animation-email/","name":"Email Design Trends: Adding CSS HTML Animation in Email","isPartOf":{"@id":"https://email.uplers.com/blog/#website"},"primaryImageOfPage":{"@id":"https://email.uplers.com/blog/css-animation-email/#primaryimage"},"author":{"@id":"https://email.uplers.com/blog/#/schema/person/7ffa431167e8be5eb07b050cd5c663fa"},"description":"How to add CSS HTML Animation in Email? If you have questions on CSS HTML Email Animation in your next email campaign get in touch with us now.","breadcrumb":{"@id":"https://email.uplers.com/blog/css-animation-email/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://email.uplers.com/blog/css-animation-email/"]}]},{"@type":"BreadcrumbList","@id":"https://email.uplers.com/blog/css-animation-email/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://email.uplers.com/blog/"},{"@type":"ListItem","position":2,"name":"Email Design Trends: Adding CSS Animation in Email"}]},{"@type":"Person","@id":"https://email.uplers.com/blog/#/schema/person/7ffa431167e8be5eb07b050cd5c663fa","name":"Kevin George","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://email.uplers.com/blog/#/schema/person/image/","url":"https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-96x96.png","contentUrl":"https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-96x96.png","caption":"Kevin George"},"description":"Kevin is the Head of Marketing at Email Uplers, one of the fastest-growing full-service email marketing companies. He is an email enthusiast at heart and loves to pen down email marketing content. You can reach him at kevin.g@uplers.com or connect with him on LinkedIn.","sameAs":["https://www.linkedin.com/in/kevin-george-email/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Email Uplers &raquo; Feed" href="https://email.uplers.com/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Email Uplers &raquo; Comments Feed" href="https://email.uplers.com/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Email Uplers &raquo; Email Design Trends: Adding CSS Animation in Email Comments Feed" href="https://email.uplers.com/blog/css-animation-email/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://email.uplers.com/blog/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='banner-list-block-css'  href='https://email.uplers.com/blog/wp-content/plugins/custom-banners/blocks/banner-list/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rotating-banner-block-css'  href='https://email.uplers.com/blog/wp-content/plugins/custom-banners/blocks/rotating-banner/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='single-banner-block-css'  href='https://email.uplers.com/blog/wp-content/plugins/custom-banners/blocks/single-banner/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mpp_gutenberg-css'  href='https://email.uplers.com/blog/wp-content/plugins/metronet-profile-picture/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='atfi-css'  href='https://email.uplers.com/blog/wp-content/plugins/advanced-twitter-feed-integration/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://email.uplers.com/blog/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-banners-css-css'  href='https://email.uplers.com/blog/wp-content/plugins/custom-banners/assets/css/wp-banners.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wm_css-css'  href='https://email.uplers.com/blog/wp-content/plugins/wm-author-box/css/wm-author-box.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slb_core-css'  href='https://email.uplers.com/blog/wp-content/plugins/simple-lightbox/client/css/app.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cf7cf-style-css'  href='https://email.uplers.com/blog/wp-content/plugins/cf7-conditional-fields/style.css' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/slick-theme.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-main-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/style-main.css?1891785101&#038;ver=5.8.8' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-iconic-font-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/material-design-iconic-font.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-scrollbar-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/CustomScrollbar.css' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/magnific-popup.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-main-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/responsive-main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/slick.css' type='text/css' media='all' />
+<link rel='stylesheet' id='selection-sharer-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/selection-sharer.css' type='text/css' media='all' />
+<link rel='stylesheet' id='inner-style-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-new-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/style-new.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/fonts.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ie-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/ie.css' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/css/custom_style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='monks-theme-style-css'  href='https://email.uplers.com/blog/wp-content/themes/uplers/style.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='cf7rl-redirect_method-js-extra'>
+/* <![CDATA[ */
+var cf7rl_ajax_object = {"cf7rl_ajax_url":"https:\/\/email.uplers.com\/blog\/wp-admin\/admin-ajax.php","cf7rl_forms":"[\"|36389|url|https:\\\/\\\/email.uplers.com\\\/thankyou\\\/?req_msg=forSubscribingtoournewsletter|0|\",\"|36388|url|https:\\\/\\\/email.uplers.com\\\/thankyou\\\/?req_msg=forSubscribingtoournewsletter|0|\",\"|36387|url|https:\\\/\\\/email.uplers.com\\\/thankyou\\\/?req_msg=forSubscribingtoournewsletter|0|\",\"|36374|url|https:\\\/\\\/email.uplers.com\\\/thankyou\\\/?req_msg=forSubscribingtoournewsletter|0|\"]"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/cf7-redirect-thank-you-page/includes/../assets/js/redirect_method.js' id='cf7rl-redirect_method-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/wm-author-box/js/wm-author-box.min.js' id='wm_js-js'></script>
+<link rel="https://api.w.org/" href="https://email.uplers.com/blog/wp-json/" /><link rel="alternate" type="application/json" href="https://email.uplers.com/blog/wp-json/wp/v2/posts/9951" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://email.uplers.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://email.uplers.com/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.8" />
+<link rel='shortlink' href='https://email.uplers.com/blog/?p=9951' />
+<link rel="alternate" type="application/json+oembed" href="https://email.uplers.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femail.uplers.com%2Fblog%2Fcss-animation-email%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://email.uplers.com/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Femail.uplers.com%2Fblog%2Fcss-animation-email%2F&#038;format=xml" />
+<style type="text/css" media="screen"></style>		<script type="text/javascript test">
+		var post_id = '9951';
+		</script>
+		<!-- There is no amphtml version available for this URL. --><link rel="icon" href="https://email.uplers.com/blog/wp-content/uploads/2020/01/favicon.ico" sizes="32x32" />
+<link rel="icon" href="https://email.uplers.com/blog/wp-content/uploads/2020/01/favicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://email.uplers.com/blog/wp-content/uploads/2020/01/favicon.ico" />
+<meta name="msapplication-TileImage" content="https://email.uplers.com/blog/wp-content/uploads/2020/01/favicon.ico" />
+		<style type="text/css" id="wp-custom-css">
+			.gif_img_margin{
+	margin-bottom:0px;
+}
+
+.gif_img_margin figure{
+	margin-top:0px;
+	margin-bottom:0px;	
+}
+
+		</style>
+		<link href="https://email.uplers.com/blog/wp-content/themes/uplers/css/container-responsive.css" type="text/css" rel="stylesheet" media="screen" />
+<!--[if lt IE 9]>
+        <script src="https://email.uplers.com/blog/wp-content/themes/uplers/js/html5.js" type="text/javascript"></script>
+        <![endif]-->
+
+<!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+
+<!--css styles starts-->
+<!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">-->
+<!--css styles ends-->
+
+<!--google/webkitt fonts embeddeds here-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<!--google/webkitt fonts embeddeds here-->
+<meta property="fb:app_id" content="475502550934365" />
+<!--script  starts-->
+<!--[if lt IE 9]>
+              <script src="js/html5shiv.js"></script>
+              <script src="js/respond.min.js"></script>
+              <link rel="stylesheet" type="text/css" href="css/ie.css">
+              <![endif]-->
+<!--script  ends-->
+<!-- Start of HubSpot Embed Code -->
+<!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2700725.js"></script> -->
+<!-- End of HubSpot Embed Code -->
+</head>
+
+<body data-rsssl=1 class="post-template-default single single-post postid-9951 single-format-standard full-width custom-font-enabled">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6HK3SB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+  <div id="header-main">
+    <div class="header-top">
+      <div class="main">
+        <div class="row row-flex">
+         <!--<div class="uplers-line">
+		 <span><a href="https://email.uplers.com/holiday-email-marketing-offer/" target="_blank" style="text-decoration: none;">Hurry!! Our merry Holiday offer ends on Dec 15. Spin to win, NOW!</a></span>
+         <!-- <span>The new home of EmailMonks</span> -->
+           <!-- <span>We are offering Email, Landing Page and Banner services worth USD 300 at no charge to support businesses affected by Covid-19. <a href="https://email.uplers.com/covid-awareness-services/?utm_source=globalheader&utm_medium=banner">Avail the offer >></a></span> -->
+         <!--</div>-->
+          <div class="col-lg-3">
+            <ul>
+              <li><a href="https://uplers.com/" title="Uplers" target="_blank"><i class="zmdi zmdi-globe"></i> uplers.com</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 txt-blog-ttl text-center">
+           <!--<a href="https://email.uplers.com/first-email-template-free/?utm_source=Website&utm_medium=black_strip&utm_campaign=Blog" target="_blank">Your first email template coding is on us! Claim now</a>-->
+<!--			  <a href="https://email.uplers.com/email-newsletter-templates/" target="_blank">Need a flawless Easter email template? We can help.</a>-->
+          </div>
+          <div class="col-lg-3 text-right">
+            <ul class="content-listing">
+              <!-- <li><a href="tel:+12136746665" title="Call Us"><img src="/images/home/call-icon.svg" alt=""/></a></li> -->
+              <li class="call-us-head"><a href="tel:+12136746665" title="Call Us"><img src="https://email.uplers.com/images/home/call-icon.svg" alt=""/><span>+12136746665</span></a></li>
+              <li><a href="mailto:contact@uplers.com" title="Email Us"><img src="https://email.uplers.com/images/home/email-icon.svg" alt=""/></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-nav">
+      <div class="main">
+        <div class="logo"><a href="https://email.uplers.com/" title="Email Uplers"><img src="https://email.uplers.com/images/home/logo.svg" alt="Email Uplers"/></a></div>
+        <div class="main-navigation">
+          <nav>
+            <ul class="enumenu_ul menu">
+              <li class="active single"><a href="https://email.uplers.com/about-us/" title="About Us">About Us</a></li>
+              <li><a href="https://email.uplers.com/services/" title="Services">Services</a>
+                <ul class="row inner-menu">
+                  <li class="col-lg-3"><a href="https://email.uplers.com/email-template-production-services/" title="Email Template Production"><strong>Email Template Production</strong> <small>We deliver beautiful pixel-perfect email templates.</small></a>
+                    <ul>
+                      <li><a href="https://email.uplers.com/psd-to-email-html-conversion-service/" title="PSD to Email HTML Conversion">PSD to Email HTML Conversion</a></li>
+                      <li><a href="https://email.uplers.com/custom-email-templates-design-coding/" title="Custom Email Design &amp; Coding ">Custom Email Design &amp; Coding </a></li>
+                      <li><a href="https://email.uplers.com/modular-email-templates-services/" title="Modular Email Template Production">Modular Email Template Production</a></li>
+                      <li><a href="https://email.uplers.com/email-newsletter-templates/" title="Email Newsletter Development">Email Newsletter Development</a></li>
+                      <li><a href="https://email.uplers.com/email-design-template-audit/" title="Email Template Audit">Email Template Audit</a></li>
+                      <li><a href="https://email.uplers.com/interactive-email-templates/" title="Interactive Email Templates">Interactive Email Templates</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-lg-3"><a href="https://email.uplers.com/email-operations-support-services/" title="Email Operations Support "><strong>Email Operations Support </strong> <small>We set up and manage your email campaigns.</small></a>
+                    <ul>
+                      <li><a href="https://email.uplers.com/email-marketing-campaign-management-services/" title="Email Campaign Management ">Email Campaign Management </a></li>
+                      <li><a href="https://email.uplers.com/email-marketing-automation-services/" title="Email Automation Management">Email Automation Management </a></li>
+                      <li><a href="https://email.uplers.com/email-marketing-campaign-audit/" title="Email Program Audit ">Email Program Audit </a></li>
+                      <li><a href="https://email.uplers.com/data-integration-migration/" title="Data Integration &amp; Migration ">Data Integration &amp; Migration </a></li>
+                    </ul>
+                  </li>
+                  <li class="col-lg-3"><a href="https://email.uplers.com/digital-assets/" title="Digital Assets"><strong>Digital Assets</strong> <small>We build conversion-driven digital marketing assets.</small></a>
+                    <ul>
+                      <li><a href="https://email.uplers.com/landing-page-design-coding-services/" title="Custom Landing Pages">Custom Landing Pages</a></li>
+                      <li><a href="https://email.uplers.com/banner-design-services/" title="Banner Design Services">Banner Design Services</a></li>
+                      <li><a href="https://email.uplers.com/email-service-provider-esp-integration/" title="ESP Support"><strong>ESP Support</strong></a></li>
+                    </ul>
+                    <p><a href="https://email.uplers.com/mailchimp-email-templates/">Mailchimp</a> |  <a href="https://email.uplers.com/salesforce-pardot-email-templates/">Pardot</a><br><a href="https://email.uplers.com/salesforce-marketing-cloud-exacttarget-email-templates/">Salesforce</a>  |  <a href="https://email.uplers.com/marketo-email-templates/">Marketo</a><br><a href="https://email.uplers.com/hubspot-email-templates/">Hubspot</a>  |  <a href="https://email.uplers.com/klaviyo-email-templates/">Klaviyo</a></p>
+                    <!-- <p>We support 50+ ESPs</p> -->
+                    
+                  </li>
+                  <li class="col-lg-3"><a href="https://email.uplers.com/dedicated-team-price-model/" title="Dedicated Resource Team"><strong>Dedicated Resource Team</strong> <small>Hire your extended email marketing team.</small></a>
+                    <ul>
+                      <!-- <li><a href="/dedicated-team-price-model/" title="Hire Email Specialists">Hire Email Specialists</a></li> -->
+                      <li><a href="https://email.uplers.com/hire-dedicated-email-developer/" title="Hire HTML Email Developers">Hire HTML Email Developers</a></li>
+                      <li><a href="https://email.uplers.com/email-marketing-campaign-manager/" title="Hire Email Campaign Manager">Hire Email Campaign Manager</a></li>
+                      <li><a href="https://email.uplers.com/email-marketing-automation-experts-specialist/" title="Hire Dedicated Automation Expert">Hire Dedicated Automation Expert</a></li>
+                      <li><a href="https://email.uplers.com/salesforce-marketing-cloud-email-specialist/" title="Hire SFMC Email Specialist">Hire SFMC Email Specialist </a></li>
+                      <li><a href="https://email.uplers.com/marketo-certified-expert-associates/" title="Hire Marketo Email Specialist">Hire Marketo Email Experts</a></li>
+                      <li><a href="https://email.uplers.com/mailchimp-experts-developer/" title="Hire Mailchimp Email Specialist">Hire Mailchimp Email Experts </a></li>
+                                          </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="https://email.uplers.com/pricing/" title="Pricing">Pricing</a>
+                <ul class="row inner-menu mobile-hidden-menu">
+                  <li class="col-lg-4"> <a href="https://email.uplers.com/pricing/" title="Standard Pricing"><strong>Standard Pricing</strong></a>
+                    <div class="menu-content-wrap">
+                      <p>Check our simple &amp; affordable, yet no-compromise pricing structure and get the ballpark cost or custom quote for your requirements.</p>
+                    </div>
+                  </li>
+                  <li class="col-lg-4"><a href="https://email.uplers.com/wallet-payment-model/" title="Wallet Model"><strong>Wallet Model</strong></a>
+                    <div class="menu-content-wrap">
+                      <p>Get the convenience of placing orders in a hassle- free manner by adding a pre-paid amount to your wallet.</p>
+                    </div>
+                  </li>
+                  <li class="col-lg-4"><a href="https://email.uplers.com/dedicated-team-price-model/" title="Dedicated Resource Team"><strong>Dedicated Resource Team</strong></a>
+                    <div class="menu-content-wrap">
+                      <p>Hire our certified expert email marketing team for faster, cost-effective and flawless execution of your email marketing strategy.</p>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="single"><a href="https://email.uplers.com/portfolio/" title="Samples">Samples</a></li>
+              <li class="single"><a href="https://email.uplers.com/testimonials/" title="Clients">Clients</a></li>
+              <li class="single"><a href="https://email.uplers.com/email-marketing-for-agencies/" title="For Agencies">For Agencies</a></li>
+                            <li><a href="https://email.uplers.com/resources/" title="Knowledge Center">Knowledge Center</a>
+
+<ul class="row inner-menu mobile-hidden-menu">
+
+  <div class="col-lg-6 tab-list-left">
+   <ul class="tabs-nav-list" id="tabs-nav-header">
+    <li class="btn-link"><a href="https://email.uplers.com/blog/" class="current" data-tab="tab1" title="Blogs"><strong>Blogs</strong> <i class="zmdi zmdi-chevron-right"></i></a>
+    </li>
+    <li class="btn-link">
+    <a href="https://email.uplers.com/infographics/" data-tab="tab2" title="Infographics"><strong>Infographics</strong> <i class="zmdi zmdi-chevron-right"></i></a>
+    </li>
+    <li class="btn-link">
+    <a href="https://email.uplers.com/case-studies/" data-tab="tab3" title="Case Studies"><strong>Case Studies</strong> <i class="zmdi zmdi-chevron-right"></i></a>
+    </li>
+    <li class="btn-link">
+    <a href="https://email.uplers.com/ebooks-whitepaper/" data-tab="tab4" title="Ebooks & Whitepapers"><strong>Ebooks & Whitepapers</strong> <i class="zmdi zmdi-chevron-right"></i></a>
+    </li>
+</ul>
+   
+  </div>
+
+  <div class="col-lg-6 tab-detail-right">
+    <div id="tabs-content">
+      <div class="menu-content-wrap tab-header-blogs current" id="tab1">
+
+          <p>Types of email notifications, best practices to follow, and some really good examples.</p>
+
+            <a class="figure-img" href="https://email.uplers.com/blog/complete-guide-to-notification-emails/">
+                            <figure style="background-image: url(https://email.uplers.com/blog/wp-content/uploads/2023/07/Notification-Emails.jpg);"></figure>
+                            </a>
+
+                            <h6><a href="https://email.uplers.com/blog/complete-guide-to-notification-emails/" title="How To Keep Subscribers In The Know With Notification Emails: A Detailed Guide To Doing It Right">Notification Emails: A Detailed Guide To Doing It Right.</a></h6>
+
+        </div>
+        
+        <div class="menu-content-wrap tab-header-blogs" id="tab2">
+
+            <p>Consume awesome email marketing content faster and on-the-go with visually appealing infographics.</p>
+
+            <a class="figure-img" href="https://email.uplers.com/infographics/holiday-email-marketing/">
+                <figure style="background-image: url(https://email.uplers.com/infographics/email-design-trends/images/header_image.png);"></figure>
+            </a>
+
+            <h6>Top 11 Email Design Trends to Watch in 2024</h6> 
+
+        </div>  
+    
+    <div class="menu-content-wrap tab-header-blogs" id="tab3">
+      <!-- <p>Email Uplers & its dedicated cross-functional team, everything in between from Email Campaigns to Email Template Migration.</p> -->
+
+      <a class="figure-img" href="https://email.uplers.com/casestudies/weight-watchers/" title="Weight Watchers Email Marketing Journey with Email Uplers">
+
+      <figure style="background-image:url(https://email.uplers.com/case-studies/images/weight-watchers.jpg)"></figure>
+
+      </a>
+
+      <h6><a href="https://email.uplers.com/casestudies/weight-watchers/" title="Weight Watchers">Weight Watchers</a></h6>
+
+    </div>
+    <div class="menu-content-wrap tab-header-blogs" id="tab4">
+       <a class="figure-img" href="https://email.uplers.com/ebooks-whitepaper/" title="Ebooks & Whitepapers ">
+		<figure style="background-image:url(https://email.uplers.com/images/ebooks_whitepapers_header.webp)"></figure>   
+       <!--<figure style="background-image:url(https://email.uplers.com/blog/wp-content/uploads/2022/09/Listing-page-2022.png)"></figure>-->
+      </a>
+      <h6>Ebooks & Whitepapers</h6>
+
+    </div>
+    </div>
+    
+
+  </div>
+  
+
+</ul>
+
+</li>
+              <li class="btn-small"> <a href="https://order.uplers.com/uplers/order" title="Order Now">Order Now <span></span></a> </li>
+            </ul>
+          </nav>
+          <div class="btn-small btn-white"><a href="https://order.uplers.com/uplers/order" title="Order Now">Order Now <span></span></a></div>
+          <div class="mobile-call"><a href="tel:12136746665" title="Call Us"><i class="zmdi zmdi-phone"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="blank-div"></div>
+  </div>
+</header>
+
+
+
+
+<style type="text/css">
+	.multiple-author{
+		margin-top: 40px;
+	}
+	.multiple-author::before {
+	    content: '';
+	    display: block;
+	    clear: both;
+	}
+	.author-item{
+		padding: 50px 0;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.author-item:first-child{
+		border-top: 1px solid #e6e6e6;
+	}
+	.author-item a {
+	    font-size: 18px;
+	    line-height: 24px;
+	    color: #000 !important;
+	    font-family: 'PT Sans',sans-serif;
+	    font-weight: 700;
+	    height: 40px;
+	    width: 40px;
+	    /*border: 2px solid #000 !important;*/
+	    border-radius: 50% !important;
+	    opacity: 1 !important;
+	    line-height: 36px;
+	}
+	.author-item a:hover{
+		border-color: #ffda30 !important;
+	}
+	.multiple-author .new-row{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+	.multiple-author .new-row .new-col-3{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.multiple-author .new-row .new-col-9{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 75%;
+		flex: 0 0 75%;
+		max-width: 75%;
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.multiple-author h5{
+		font-size: 18px;
+		line-height: 24px;
+		color: #000;
+		font-family: 'PT Sans',sans-serif;
+		font-weight: 700;
+	}	
+    .multiple-author .user-image img,
+    .ts-fab-tabs .ts-fab-avatar img{
+        max-width: 150px !important;
+    }
+	@media(max-width: 560px){
+		.multiple-author .new-row .new-col-3,
+		.multiple-author .new-row .new-col-9{
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 100%;
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+		.multiple-author .new-row .new-col-3{
+			margin-bottom: 30px;
+		}
+		.multiple-author .user-image{
+			max-width: 200px;
+		}
+	}
+</style>
+<div class="main">
+    <div class="blog-content-left aaa">
+
+        <div class="top-main-blog">
+            <a href="https://email.uplers.com/blog/" class="top-all-blogs">
+                <div class="circle">
+                    <img src="https://email.uplers.com/blog/wp-content/themes/uplers/images/back-dir-arrow.png" alt="back arrow" />
+                </div>
+                <span>All Blogs</span>
+            </a>
+
+            <div class="btn btn-border top-right popup">
+                <!-- <a href="#" title="Subscribe Now">Subscribe Now<span></span></a> -->
+                <a href="#subscribe-popup" title="Subscribe" data-effect="mfp-zoom-in">Subscribe Now<span></span></a>
+                <div id="subscribe-popup" class="white-popup mfp-with-anim mfp-hide">
+                    <!-- <h2><span>Subscribe</span> to our newsletter</h2> -->
+                    <!-- <form id="subscribe-form-resorce">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="feild">
+                                    <input type="text" name="subscribename" class="required" placeholder="Name" tabindex="21" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="feild">
+                                    <input type="text" name="subscribemail" class="required email" placeholder="Email" tabindex="22">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="submit-feild"><input type="submit" name="submit" tabindex="23" value="Submit"> <span></span></div>
+                            </div>
+                        </div>
+                        <div class="successmsg">Thanks</div>
+                    </form> -->
+                    <div role="form" class="wpcf7" id="wpcf7-f36388-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/blog/css-animation-email/#wpcf7-f36388-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="36388" />
+<input type="hidden" name="_wpcf7_version" value="5.4.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f36388-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7cf_hidden_group_fields" value="[]" />
+<input type="hidden" name="_wpcf7cf_hidden_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_visible_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_repeaters" value="[]" />
+<input type="hidden" name="_wpcf7cf_steps" value="{}" />
+<input type="hidden" name="_wpcf7cf_options" value="{&quot;form_id&quot;:36388,&quot;conditions&quot;:[],&quot;settings&quot;:{&quot;animation&quot;:&quot;yes&quot;,&quot;animation_intime&quot;:200,&quot;animation_outtime&quot;:200,&quot;conditions_ui&quot;:&quot;normal&quot;,&quot;notice_dismissed&quot;:false,&quot;notice_dismissed_update-cf7-5.8&quot;:true}}" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<h2><span>Subscribe</span> to our newsletter</h2>
+<div id="subscribe-form-resorce">
+<div class="row">
+<div class="col-lg-6">
+<div class="feild">
+<span class="wpcf7-form-control-wrap subscribname"><input type="text" name="subscribname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required required" aria-required="true" aria-invalid="false" placeholder="Name" /></span>
+                                </div>
+</div>
+<div class="col-lg-6">
+<div class="feild">
+<span class="wpcf7-form-control-wrap subscribemail"><input type="email" name="subscribemail" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email required email" aria-required="true" aria-invalid="false" placeholder="Email" /></span>
+                                </div>
+</div>
+<div class="col-lg-12">
+<span class="wpcf7-form-control-wrap pageurl" data-name="pageurl"><input type="hidden" name="pageurl" value="https://email.uplers.com/blog/blog/css-animation-email/" size="40" aria-invalid="false" autocomplete="off" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" /></span></p>
+<div class="submit-feild"><input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit" /> <span></span></div>
+</div>
+</div>
+<div class="successmsg">Thanks</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>                </div>
+            </div>
+        </div>
+        
+        
+<div class="blog-top-content">
+<article id="post-9951" class="post-9951 post type-post status-publish format-standard has-post-thumbnail hentry category-email-design">
+                    
+	<div class="blog-banner-title">
+		<div class="entry-header inner-banner-image">
+						   <img width="1170" height="427" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/css-animation-email.jpg" class="attachment-full size-full wp-post-image" alt="css-animation-email" loading="lazy" title="css-animation-email" />					</div><!-- .entry-header -->
+		<div class="blog-heading-section">
+			<h1 class="entry-title">Email Design Trends: Adding CSS Animation in Email</h1>
+			<div class="date-auther breadcrumb-blog">
+								<div class="blog">
+					<div class="blog--links" style="position: static; padding: 0;">
+						<ul>
+							<li><a href="https://email.uplers.com/blog/css-animation-email/" title="7:25 pm" rel="bookmark nofollow"><time class="entry-date" datetime="2022-06-08T19:25:00+05:30">June 8, 2022</time></a></li>
+							<li>
+																	<a href="https://email.uplers.com/blog/category/email-design/" rel="nofollow">Email Design</a>
+															</li>
+							<li><span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 6</span> <span class="rt-label rt-postfix"></span></span> MIN READ</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<p>Want to add CSS animations in emails? Take a look at the coding insights from our experts...</p>
+					</div>
+	</div>
+	        
+    <div class="entry-content blog-individual 123">
+                                 <div class="inner-content">
+                
+<p>[This post was originally published on 9th Feb 2018. It has been updated on 8th June 2022.]</p>
+
+
+
+<p>Could our ancestors have ever thought that one day, moving photographs would be for real? While moving photographs are not possible in print media, digital media has already succeeded in adding value to static elements and images by animating them. All thanks to HTML animation codes and CSS, plain text emails have got a makeover and now email subscribers can enjoy different <a href="https://email.uplers.com/first-email-template-free/" target="_blank" rel="noopener noreferrer">HTML email templates</a>.</p>
+<h2>Types of Possible Email Animations</h2>
+<h3>1. Animated GIFs</h3>
+<p>Traditionally, any email client that supported embedded images would support animated GIFs (except for Outlook and Lotus Notes). Email designers began diverting their attention to using animated GIFs in situations where multiple images needed to be displayed or just to include some animation in a plain email. In fact, back in 2014, <a href="https://www.marketingsherpa.com/article/case-study/gif-centric-email-campaign" target="_blank" rel="nofollow noopener">Dell witnessed 109% lift in their revenue by sending a GIF-centric email</a>.</p>
+<h3><a href="https://email.uplers.com/interactive-email-templates/?utm_source=blog&amp;utm_medium=CTA&amp;utm_campaign=css-animation-email" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="aligncenter size-full wp-image-17118" src="https://email.uplers.com/blog/wp-content/uploads/2019/07/rich-media.jpg" alt="" width="800" height="200" srcset="https://email.uplers.com/blog/wp-content/uploads/2019/07/rich-media.jpg 800w, https://email.uplers.com/blog/wp-content/uploads/2019/07/rich-media-300x75.jpg 300w, https://email.uplers.com/blog/wp-content/uploads/2019/07/rich-media-768x192.jpg 768w, https://email.uplers.com/blog/wp-content/uploads/2019/07/rich-media-624x156.jpg 624w" sizes="(max-width: 800px) 100vw, 800px" /></a></h3>
+<h3>2. Cinemagraphs</h3>
+<p>Taking animated GIFs a step ahead, cinemagraphs have a static foreground with a single element moving / animating in the background. This creates a cinematic effect and hence the name “cinemagraph”.</p>
+<h3>3. Embedded Videos</h3>
+<p>As technology advanced, in the late 2000’s email designers started to experiment with including videos that will play right in their inbox. In 2009, the push toward <a href="https://email.uplers.com/email-template-production-services/" target="_blank" rel="noopener noreferrer">responsive emails</a> began and most native email clients started supporting video playback in the inbox. After experiencing a lull when Apple dropped support for video playback in iOS 8, embedded video in emails is making a strong comeback with increasing devices supporting it.</p>
+<p>Moreover, as per <a href="http://www.reuters.com/article/us-internet-consumers-cisco-systems-idUSKBN0EL15E20140610" target="_blank" rel="nofollow noopener">Reuters</a>, more than 84 percent of communication in 2018 will be visual, so expect more emails featuring embedded videos.</p>
+<div id="attachment_9965" style="width: 1903px" class="wp-caption aligncenter"><a href="https://email.uplers.com/infographics/rich-media-email-marketing/" target="_blank" rel="noopener noreferrer"><img aria-describedby="caption-attachment-9965" loading="lazy" class="wp-image-9965 size-full" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/Rich-Media-in-emails.jpg" alt="Rich Media in emails" width="1893" height="681" /></a><p id="caption-attachment-9965" class="wp-caption-text">Click on the above banner to know more about different rich media in emails</p></div>
+<h3>4. CSS Animations</h3>
+<p>HTML CSS animation is the latest fad that is gripping the email design domain. Earlier, gimmicks such as flip, hover, illumination, free fall et.c that were only possible in web pages using JavaScript and Flash are now easily replicated for emails using CSS wrapped around an HTML structure.</p>
+<h2>5. What is CSS animations and How can you add it to your emails?</h2>
+<p>HTML CSS animation in emails revolves around changing the CSS properties at regular intervals that are specified by keyframes. There are two components to create a CSS animation:</p>
+<p><strong>@keyframe</strong>: This specifies what styles the element will inherit at specified time intervals. Keyframes are not element specific and can be inherited by any elements that are specified using animation tag. This is placed in the &lt;head&gt; of CSS animation email.</p>
+<p><a href="https://email.uplers.com/custom-email-templates-design-coding/?utm_source=blog&amp;utm_medium=CTA&amp;utm_campaign=css-animation-email" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="aligncenter size-full wp-image-17133" src="https://email.uplers.com/blog/wp-content/uploads/2018/04/custom-email-design-coding.jpg" alt="" width="800" height="200" srcset="https://email.uplers.com/blog/wp-content/uploads/2018/04/custom-email-design-coding.jpg 800w, https://email.uplers.com/blog/wp-content/uploads/2018/04/custom-email-design-coding-300x75.jpg 300w, https://email.uplers.com/blog/wp-content/uploads/2018/04/custom-email-design-coding-768x192.jpg 768w, https://email.uplers.com/blog/wp-content/uploads/2018/04/custom-email-design-coding-624x156.jpg 624w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p><strong>Animation</strong>: This specifies what keyframes are to be included in the specified element. This is placed in the &lt;body&gt; of an email. There are two different CSS properties that can be used.</p>
+<ol>
+<li><strong>-animation- CSS property</strong><br />The animation property is a shorthand property for eight of the animation properties:
+<p> </p>
+<ul>
+<li>Animation-name: Specifies the name of the keyframe you want to associate with an element.</li>
+<li>Animation-duration: Specifies the time duration for which the animation runs. Duration is either in seconds or milliseconds. If it is not specified, it takes default value i.e. 0ms. At 0ms, animation won’t run.</li>
+<li>Animation-timing-function: Specifies the speed of an animation.</li>
+<li>Animation-delay: Specifies the time delay before the animation activates. The values can also be negative.</li>
+<li>Animation-iteration-count: Specifies the number of times the animation is to be repeated.</li>
+<li>Animation-direction: Specifies the direction in which the animation runs.</li>
+<li>Animation-fill-mode: Specifies what values are applied by the animation outside the time it is executing.</li>
+<li>Animation-play-state: Specifies whether the animation is playing or not.</li>
+</ul>
+</li>
+<li><strong>-transition- CSS property</strong><br />The CSS transition property allows you to change property values of the elements smoothly, over a given duration. It is a shorthand property for 4 of the transition properties:
+<p> </p>
+<ul>
+<li>transition-delay: Specifies the time delay before the transition activates.</li>
+<li>transition-duration: Specifies the time duration taken for the transition to occur.</li>
+<li>transition-property: Specifies which property of the element will be edited. Values could be the width, height, transparency, etc.</li>
+<li>transition-timing-function: Specifies the speed curve of the transition effect.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Important Note:</strong> While including any of the CSS properties, it is important to add suffixes for bug-free rendering.</p>
+<p>Most commonly used suffixes are:</p>
+<ul>
+<li>-webkit-animation: for rendering in Safari-based email clients</li>
+<li>-moz-animation: for rendering in Mozilla-based email clients</li>
+<li>-ms-animation: for rendering in IE10-based email clients</li>
+</ul>
+<h2>Sample Email Code</h2>
+<p>During Christmas, we at Email Uplers, sent our customers a season’s greetings email in which we used CSS animation property to replicate a Christmas scenario. In this CSS animation email, there were two elements that were animated.</p>
+<ol>
+<li>A GIF of Santa walking <img loading="lazy" class="aligncenter wp-image-9963 size-full" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/Santa.gif" alt="" width="150" height="85" /></li>
+<li>Layers of snow<img loading="lazy" class="aligncenter wp-image-9957 size-full" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/Snow.gif" alt="" width="100" height="203" /></li>
+</ol>
+<p>The CSS code for both are:</p>
+<p>Code specifying the keyframe animations for Santa</p>
+<pre class="lang:css decode:true" title="Code specifying the keyframe animations for Santa">@keyframes mymove {
+ 0% {
+left: 0%;
+opacity:0;
+}
+ 10% {
+left: 10%;
+opacity:1;
+}
+80% {
+ left: 80%;
+opacity:1;
+}
+85% {
+ left: 85%;
+opacity:0;
+}
+100% {
+ opacity:0;
+}
+}</pre>
+<p>HTML animation codes specifying the animation properties</p>
+<pre class="lang:css decode:true" title="Code specifying the animation properties">.em_santa {
+	background-image: url(https://edmimages.net/edm/2017/December/Christmas_Inhouse1/santa2.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 85px;
+	width: 150px;
+	overflow: visible;
+	position: relative;
+	-webkit-animation: mymove 30s infinite; /* Safari 4.0 - 8.0 */
+	animation: mymove 30s infinite;
+	-webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+	animation-direction: normal;
+	z-index: 1;
+	top: -265px;
+}</pre>
+<p>HTML animation codes for specifying the timing function</p>
+<pre class="lang:default decode:true" title="Code for specifying the timing function">#div1 {
+	-webkit-animation-timing-function: linear;
+	z-index: 0;
+}</pre>
+<p>Code specifying the keyframe animations for Snow</p>
+<pre class="lang:default decode:true" title="Code specifying the keyframe animations for Snow">@keyframes snow {
+ 0% {
+background-position: 0px 0px, 0px 0px, 0px 0px;
+}
+ 100% {
+background-position: 500px 1000px, 200px 400px, -100px 300px;
+}
+}</pre>
+<p>Code specifying the animation properties</p>
+<pre class="lang:default decode:true " title="Code specifying the animation properties">snow {
+	background: none;
+	font-family: Androgyne;
+	background-image: url('https://edmimages.net/edm//2017/December/Christmas_Inhouse1/s1.png'), url('https://edmimages.net/edm//2017/December/Christmas_Inhouse1/s2.png'), url('https://edmimages.net/edm//2017/December/Christmas_Inhouse1/s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}</pre>
+<p>So, based on the CSS applied, the following visual sorcery was possible.</p>
+<p><img loading="lazy" class="aligncenter wp-image-9955 size-full" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/Email.gif" alt="css-animation-emails-christmas" width="300" height="139" /></p>
+<h2>Email Client Compatibility for CSS Animation Templates</h2>
+<p>With constant updates and community feedbacks, more and more email clients are supporting CSS animation templates, although the support is currently selective. There are email clients that support -animation property but have poor support for -transition property.</p>
+<table>
+<tbody>
+<tr>
+<td style="text-align: center;" width="308"><strong>-animation property</strong></td>
+<td style="text-align: center;" width="308"><strong>-transition property</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;" width="308">Apple Mail 10<br />Outlook for Mac<br />Thunderbird<br />Android 4.4.4 Mail<br />AOL Alto (Android &amp; iOS)<br />BlackBerry Mail<br />iOS mail<br />Outlook Android app<br />AOL Mail</td>
+<td style="text-align: center;" width="308">Apple Mail 10<br />Outlook for Mac<br />Thunderbird<br />Android 4.4.4 Mail<br />AOL Alto (Android only)<br />BlackBerry Mail<br />iOS mail<br />Outlook Android app<br />AOL Mail</td>
+</tr>
+</tbody>
+</table>
+<h2><a href="https://email.uplers.com/email-design-template-audit/?utm_source=blog&amp;utm_medium=CTA&amp;utm_campaign=css-animation-email" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="aligncenter size-full wp-image-17147" src="https://email.uplers.com/blog/wp-content/uploads/2019/09/email-audit.jpg" alt="" width="800" height="200" srcset="https://email.uplers.com/blog/wp-content/uploads/2019/09/email-audit.jpg 800w, https://email.uplers.com/blog/wp-content/uploads/2019/09/email-audit-300x75.jpg 300w, https://email.uplers.com/blog/wp-content/uploads/2019/09/email-audit-768x192.jpg 768w, https://email.uplers.com/blog/wp-content/uploads/2019/09/email-audit-624x156.jpg 624w" sizes="(max-width: 800px) 100vw, 800px" /></a></h2>
+<h2>Advantages of CSS animation in emails</h2>
+<ul>
+<li>It is light-weight and fast to load.</li>
+<li>Animations run smoother compared to other HTML animation examples with GIFs.</li>
+<li>The element can be scaled. This means there will be no concerns about pixelation in retina displays.</li>
+</ul>
+<h2>Some Awe-inspiring HTML animation examples</h2>
+<ol>
+<li>
+<h3>OMG</h3>
+<p><img loading="lazy" class="aligncenter wp-image-9961 size-full" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/OMG-css-animation-emails-christmas.jpeg" alt="OMG-css-animation-emails-christmas" width="651" height="897" /></p>
+<p>A CSS class called ‘wobble’ has been created and associated with the CTA button, making the button wobble on email open.</p>
+</li>
+<li>
+<h3>1973</h3>
+<p><img loading="lazy" class="aligncenter wp-image-9960 size-large" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/1973-css-animation-emails-christmas-1024x480.jpeg" alt="1973-css-animation-emails-christmas" width="625" height="293" /></p>
+<p>In this email, the Santa is GIF which is nested in a table which inherits the CSS animation for the snow</p>
+</li>
+<li>
+<h3>Rail Nation</h3>
+<p><img loading="lazy" class="aligncenter wp-image-9959 size-full" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/Rail-Nation-css-animation-emails-christmas.jpg" alt="Rail-Nation-css-animation-emails-christmas" width="952" height="900" /></p>
+<p>The firework animation in this email goes well with the message conveyed by the email and doesn&#8217;t draw much attention</p>
+</li>
+<li>
+<h3>Prezi</h3>
+<p><img loading="lazy" class="aligncenter wp-image-9956 size-large" title="Prezi-css-animation-emails-christmas" src="https://email.uplers.com/blog/wp-content/uploads/2018/02/Prezi-1024x480.jpeg" alt="Prezi-css-animation-emails-christmas" width="625" height="293" /></p>
+<p>Similar to the 1973 email, here also the animation of the snow falling is emulated using CSS animation.</p>
+</li>
+</ol>
+<h2>Advantages and Limitations</h2>
+<p>CSS-based animation for emails is the future of <a href="https://email.uplers.com/blog/complete-guide-to-create-your-first-email-template/">email design</a>. Even though it is overlooked (or avoided) currently by<a href="https://email.uplers.com/hire-dedicated-email-developer/"> email developers</a>, CSS animation can be a unique way to delight your subscribers and further enhance their email viewing experiences.</p>
+<p>But beware! CSS HTML animation for emails is a double-edged sword. Before you jump head-on to include a CSS animation in your email, take these <strong>two points</strong> into consideration.</p>
+<ul>
+<li>CSS animation for emails take a lot of development time owing to constant testing and rectifications.</li>
+<li>CSS animations should be included only after detailed planning. Animating an element just for the sake of animating may not solve the purpose of your campaign.</li>
+</ul>
+<p>If you have questions on CSS HTML Animation in Emails or how to implement it in your next email campaign get in touch with us now.</p>									<div class="blog-social-wrapper">
+					<h5>Did you like this post? Do share it!</h5>
+					<ul class="social-links blog-details-social blog-social">
+						<li><a href="https://www.facebook.com/sharer?u=https://email.uplers.com/blog/css-animation-email/;&t=Email Design Trends: Adding CSS Animation in Email;" title="" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
+						<li class="twitter"><a href="http://twitter.com/intent/tweet?text=Currently reading Email Design Trends: Adding CSS Animation in Email&url=https://email.uplers.com/blog/css-animation-email/" title="" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://email.uplers.com/blog/css-animation-email/&title=Email Design Trends: Adding CSS Animation in Email&summary=&source=Email Uplers" title="" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
+						<li><input id="copy-text" type="hidden" value="https://email.uplers.com/blog/css-animation-email/"><a id="copy-url" href="https://email.uplers.com/blog/css-animation-email/" title=""><i class="fa fa-link"></i></a><span style="display: none;">Copied to clipboard</span></li>
+					</ul>
+					</div>
+	            								 <div role="form" class="wpcf7" id="wpcf7-f27535-p9951-o2" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/blog/css-animation-email/#wpcf7-f27535-p9951-o2" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="27535" />
+<input type="hidden" name="_wpcf7_version" value="5.4.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f27535-p9951-o2" />
+<input type="hidden" name="_wpcf7_container_post" value="9951" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7cf_hidden_group_fields" value="[]" />
+<input type="hidden" name="_wpcf7cf_hidden_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_visible_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_repeaters" value="[]" />
+<input type="hidden" name="_wpcf7cf_steps" value="{}" />
+<input type="hidden" name="_wpcf7cf_options" value="{&quot;form_id&quot;:27535,&quot;conditions&quot;:[{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;PSD to Email&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;PSD to Email&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Custom Email Design &amp; Coding&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Custom Email Design &amp; Coding&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Custom Email Design&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Custom Email Design&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Custom Email Coding&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Custom Email Coding&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Template Audit&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Template Audit&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Modular Email Template Production&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Modular Email Template Production&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Interactive\/Kinetic Email Templates&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Interactive\/Kinetic Email Templates&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Campaign Management&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Campaign Management&quot;}]},{&quot;then_field&quot;:&quot;group-service2&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Campaign Management&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Automation Management&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Automation Management&quot;}]},{&quot;then_field&quot;:&quot;group-service2&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Automation Management&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Program Audit&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Email Program Audit&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Data Integration &amp; Migration&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Data Integration &amp; Migration&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Hire Dedicated Resource Team&quot;}]},{&quot;then_field&quot;:&quot;group-esp&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Hire Dedicated Resource Team&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Landing Pages&quot;}]},{&quot;then_field&quot;:&quot;group-service1&quot;,&quot;and_rules&quot;:[{&quot;if_field&quot;:&quot;selectservice&quot;,&quot;operator&quot;:&quot;equals&quot;,&quot;if_value&quot;:&quot;Banners&quot;}]}],&quot;settings&quot;:{&quot;animation&quot;:&quot;yes&quot;,&quot;animation_intime&quot;:200,&quot;animation_outtime&quot;:200,&quot;conditions_ui&quot;:&quot;normal&quot;,&quot;notice_dismissed&quot;:false,&quot;notice_dismissed_update-cf7-5.8&quot;:true}}" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<div id="get-in-touch-section" class="get-in-touch-section">
+<div class="main">
+<h2><span>Get In</span> Touch</h2>
+<p>We shall get back to you within a few hours.</p>
+<div id="get-in-touch-blog">
+<div class="row">
+<div class="col-lg-6">
+<div class="feild">
+                <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" tabindex="1" aria-required="true" aria-invalid="false" placeholder="Name" /></span></p>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="feild">
+<p>                <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" tabindex="2" aria-required="true" aria-invalid="false" placeholder="Email" /></span></p>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="feild">
+<p>                <span class="wpcf7-form-control-wrap Phone"><input type="text" name="Phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" tabindex="3" aria-required="true" aria-invalid="false" placeholder="Phone Number" /></span></p>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="feild">
+              <span class="wpcf7-form-control-wrap selectservice"><select name="selectservice" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectbox selectbox-main" tabindex="4" aria-required="true" aria-invalid="false"><option value="">Which service are you interested in?</option><option value="PSD to Email">PSD to Email</option><option value="Custom Email Design &amp; Coding">Custom Email Design &amp; Coding</option><option value="Custom Email Design">Custom Email Design</option><option value="Custom Email Coding">Custom Email Coding</option><option value="Email Template Audit">Email Template Audit</option><option value="Modular Email Template Production">Modular Email Template Production</option><option value="Interactive/Kinetic Email Templates">Interactive/Kinetic Email Templates</option><option value="Email Campaign Management">Email Campaign Management</option><option value="Email Automation Management">Email Automation Management</option><option value="Email Program Audit">Email Program Audit</option><option value="Data Integration &amp; Migration">Data Integration &amp; Migration</option><option value="Hire Dedicated Resource Team">Hire Dedicated Resource Team</option><option value="Landing Pages">Landing Pages</option><option value="Banners">Banners</option></select></span>
+             </div>
+</div>
+<div data-id="group-service1" data-orig_data_id="group-service1"  data-class="wpcf7cf_group">
+<div class="feild">
+                 <span class="wpcf7-form-control-wrap selectservice1"><select name="selectservice1" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectbox reset-dropdown" tabindex="5" aria-required="true" aria-invalid="false"><option value="">How soon do you wish to begin?</option><option value="As soon as possible">As soon as possible</option><option value="15 days works">15 days works</option><option value="One month will do">One month will do</option><option value="Two months will do">Two months will do</option><option value="I&#039;m not in a hurry">I&#039;m not in a hurry</option></select></span>
+                  </div>
+</div>
+<div data-id="group-esp" data-orig_data_id="group-esp"  data-class="wpcf7cf_group">
+<div class="feild">
+                  <span class="wpcf7-form-control-wrap esp"><input type="text" name="esp" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" tabindex="6" aria-required="true" aria-invalid="false" placeholder="You&#039;re looking for expertise in which ESP/s?" /></span>
+              </div>
+</div>
+<div data-id="group-service2" data-orig_data_id="group-service2"  data-class="wpcf7cf_group">
+<div class="feild">
+                  <span class="wpcf7-form-control-wrap selectservice2"><select name="selectservice2" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required selectbox reset-dropdown" tabindex="7" aria-required="true" aria-invalid="false"><option value="">Tell us more about how you want us to be involved?</option><option value="Strategy">Strategy</option><option value="Execution">Execution</option><option value="Strategy &amp; Execution">Strategy &amp; Execution</option></select></span>
+               </div>
+</div>
+<div class="col-lg-12">
+<div class="feild">
+                 <span class="wpcf7-form-control-wrap comments"><textarea name="comments" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" tabindex="8" aria-invalid="false" placeholder="Tell us more about your requirement"></textarea></span>
+              </div>
+</div>
+<input type="hidden" name="url" value="" class="wpcf7-form-control wpcf7-hidden" />
+<div class="col-lg-12 submit-btn">
+<div class="feild">
+                 <input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit" tabindex="9" />
+              </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>			     
+            </div>
+                </div><!-- .entry-content -->
+	    	
+</article><!-- #post -->
+
+<!--<div class="social-fixed"></div>-->
+</div>		
+        <ul class="social-links blog-details-social">
+                        <li><a href="https://www.facebook.com/sharer?u=https://email.uplers.com/blog/css-animation-email/;&t=Email Design Trends: Adding CSS Animation in Email;" title="" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
+						<li class="twitter"><a href="http://twitter.com/intent/tweet?text=Currently reading Email Design Trends: Adding CSS Animation in Email&url=https://email.uplers.com/blog/css-animation-email/" title="" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://email.uplers.com/blog/css-animation-email/&title=Email Design Trends: Adding CSS Animation in Email&summary=&source=Email Uplers" title="" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
+						<li><input id="copy-text1" type="hidden" value="https://email.uplers.com/blog/css-animation-email/"><a id="copy-url1" href="https://email.uplers.com/blog/css-animation-email/" title=""><i class="fa fa-link"></i></a><span style="display: none;">Copied to clipboard</span></li>
+    </ul>
+        	  		
+			
+        <div class="comment-container">
+		
+		    
+        	<div id="ts-fab-below" class="ts-fab-wrapper"><span class="screen-reader-text">The following two tabs change content below.</span><ul class="ts-fab-list"><li class="ts-fab-bio-link"><a href="#ts-fab-bio-below">About</a></li><li class="ts-fab-latest-posts-link"><a href="#ts-fab-latest-posts-below">Latest Posts</a></li><li class="ts-fab-related-posts-link"><a href="#ts-fab-related-posts-below">Related Posts</a></li></ul><div class="ts-fab-tabs">
+	<div class="ts-fab-tab" id="ts-fab-bio-below">
+		<div class="ts-fab-avatar"><img width="190" height="190" src="https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-300x300.png" class="avatar avatar-190 photo" alt="" loading="lazy" srcset="https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-300x300.png 300w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-150x150.png 150w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-24x24.png 24w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-48x48.png 48w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-96x96.png 96w" sizes="(max-width: 190px) 100vw, 190px" /></div>
+		
+		<div class="ts-fab-text">
+			<div class="ts-fab-header"><h4>Kevin George</h4></div><!-- /.ts-fab-header -->
+			<div class="ts-fab-content">Kevin is the Head of Marketing at <a href="https://email.uplers.com/">Email Uplers</a>, one of the fastest-growing full-service email marketing companies. He is an email enthusiast at heart and loves to pen down email marketing content. You can reach him at 
+<a href="mailto:kevin.g@uplers.com"><strong>kevin.g@uplers.com</strong></a> or connect with him on LinkedIn.</div>
+		</div><div class="ts-fab-social-links"><a href="https://www.linkedin.com/in/kevin-george-email/" title="LinkedIn" rel="nofollow">
+        <i class="zmdi zmdi-linkedin"></i><img src="https://email.uplers.com/blog/wp-content/plugins/wm-author-box/images/linkedin.png" width="24" height="24" alt="My LinkedIn profile" /></a></div></div>
+	<div class="ts-fab-tab" id="ts-fab-latest-posts-below">
+		<div class="ts-fab-avatar"><img width="80" height="80" src="https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-96x96.png" class="avatar avatar-80 photo" alt="" loading="lazy" srcset="https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-96x96.png 96w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-150x150.png 150w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-24x24.png 24w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-48x48.png 48w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" /></div>
+		<div class="ts-fab-text">
+			<div class="ts-fab-header">
+				<h4>Latest posts by Kevin George <span class="latest-see-all">(<a href="https://email.uplers.com/blog/author/kevin/" rel="nofollow">see all</a>)</span></h4>
+			</div>
+			<ul class="ts-fab-latest">
+				<li>
+					<a href="https://email.uplers.com/blog/embed-polls-surveys-emails-via-mailchimp/">How to Embed Mailchimp Survey &#038; Polls in Emails to Boost Your Campaign ROI</a><span> - December 14, 2023</span> 
+				</li>
+				<li>
+					<a href="https://email.uplers.com/blog/interactive-emails-in-salesforce/">The Why &#038; How of  Interactive Emails in SFMC</a><span> - October 19, 2023</span> 
+				</li>
+				<li>
+					<a href="https://email.uplers.com/blog/holiday-email-subject-lines/">Top 75 Holiday Email Subject Lines to Boost Open Rate (Updated)</a><span> - October 18, 2023</span> 
+				</li></ul></div><div class="ts-fab-social-links"><a href="https://www.linkedin.com/in/kevin-george-email/" title="LinkedIn" rel="nofollow">
+        <i class="zmdi zmdi-linkedin"></i><img src="https://email.uplers.com/blog/wp-content/plugins/wm-author-box/images/linkedin.png" width="24" height="24" alt="My LinkedIn profile" /></a></div></div><div class="ts-fab-tab" id="ts-fab-related-posts-below"><div class="ts-fab-avatar"><img width="80" height="80" src="https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-96x96.png" class="avatar avatar-80 photo" alt="" loading="lazy" srcset="https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-96x96.png 96w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-150x150.png 150w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-24x24.png 24w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-48x48.png 48w, https://email.uplers.com/blog/wp-content/uploads/2019/03/Img-300x300.png 300w" sizes="(max-width: 80px) 100vw, 80px" /></div> <div class="ts-fab-text"> <ul class="ts-fab-latest"><li><a href="https://email.uplers.com/blog/email-marketing-automation-trends/">Notch Up More Conversions by Leveraging These Email Marketing Automation Trends in 2024!</a><span> - January 5, 2024</span> </li><li><a href="https://email.uplers.com/blog/salesforce-pardot-implementation-guide/">12 Preliminary Steps to Prepare for Salesforce Pardot Implementation</a><span> - December 27, 2023</span> </li><li><a href="https://email.uplers.com/blog/merge-tags-in-mailchimp-email-campaigns/">Using Merge Tags in Mailchimp Email Campaigns- Get it Right With This Guide!</a><span> - December 20, 2023</span> </li> </ul></div><div class="ts-fab-social-links"><a href="https://www.linkedin.com/in/kevin-george-email/" title="LinkedIn" rel="nofollow">
+        <i class="zmdi zmdi-linkedin"></i><img src="https://email.uplers.com/blog/wp-content/plugins/wm-author-box/images/linkedin.png" width="24" height="24" alt="My LinkedIn profile" /></a></div></div>
+		</div>
+	</div>
+            <!--        <h6 class="social-title">Social Sharing</h6>-->
+            
+            
+           
+              			                 
+            <div class="blog-slider cust">
+                               <a href="https://email.uplers.com/blog/ultimate-guide-email-template-design/" class="left-arrow slick-prev"></a>
+                                <a href="https://email.uplers.com/blog/sfmc-journey-builder-everything-you-should-know/" class="right-arrow slick-next"></a>
+                                <div class="blog-gride-block">
+                    <a href="https://email.uplers.com/blog/ultimate-guide-email-template-design/" title="" style="background-image:url(https://email.uplers.com/blog/wp-content/uploads/2022/06/Email-Template-Design-2.png)">
+                    </a>
+                    <div class="gride-content">
+                        <h3>
+                            <a href="https://email.uplers.com/blog/ultimate-guide-email-template-design/" title="A detailed guide to help you ace your Email Template Design">A detailed guide to help you ace your Email Template Design</a>
+                        </h3>
+                        <div class="blog--links">
+                            <ul>
+                                                                <li>
+                                    <a href="https://email.uplers.com/blog/category/email-design/"  rel="nofollow">Email Design </a>
+                                </li>
+                                <li><span class="span-reading-time rt-reading-time"><span class="rt-label"></span> <span class="rt-time"> <span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 6</span> <span class="rt-label rt-postfix"></span></span></span> <span class="rt-label rt-postfix"></span></span> MIN READ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                                <div class="blog-gride-block">
+                    <a href="https://email.uplers.com/blog/sfmc-journey-builder-everything-you-should-know/" title="" style="background-image:url(https://email.uplers.com/blog/wp-content/uploads/2020/06/Journey-Builder_V1.jpg)">
+                    </a>
+                    <div class="gride-content">
+                        <h3>
+                            <a href="https://email.uplers.com/blog/sfmc-journey-builder-everything-you-should-know/" title="SFMC Journey Builder - Everything You Should Know">SFMC Journey Builder - Everything You Should Know</a>
+                        </h3>
+                        <div class="blog--links">
+                            <ul>
+                                                                <li>
+                                    <a href="https://email.uplers.com/blog/category/salesforce-marketing-cloud/" rel="nofollow">Salesforce Marketing Cloud </a>
+                                </li>
+                                <li><span class="span-reading-time rt-reading-time"><span class="rt-label"></span> <span class="rt-time"> <span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 6</span> <span class="rt-label rt-postfix"></span></span></span> <span class="rt-label rt-postfix"></span></span> MIN READ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+			            
+<div id="comments" class="comments-area">
+
+	
+   	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/css-animation-email/#respond" style="display:none;">Cancel Reply</a></small></h3><form action="https://email.uplers.com/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"></p><div class="left-commnet"><p class="comment-form-author"><input id="author" placeholder="Name" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><input id="email" placeholder="Email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><input id="url" placeholder="Website" name="url" type="text" value="" size="30" /></p></div>
+<div class="right-comment"><p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="8" placeholder="Your thoughts" aria-required="true"></textarea></p></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit" /> <input type='hidden' name='comment_post_ID' value='9951' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	</div><!-- #comments .comments-area -->        </div>
+
+            </div>
+    
+
+
+</div>
+
+
+      
+
+
+
+
+
+<div class="aaa" style="display:none">Array
+(
+    [0] => WP_Term Object
+        (
+            [term_id] => 381
+            [name] => Email Design
+            [slug] => email-design
+            [term_group] => 0
+            [term_taxonomy_id] => 381
+            [taxonomy] => category
+            [description] => Blogs highlighting any of the prominent aspects of Email design are archived here. These are a subdivision of email marketing.
+            [parent] => 0
+            [count] => 186
+            [filter] => raw
+            [cat_ID] => 381
+            [category_count] => 186
+            [category_description] => Blogs highlighting any of the prominent aspects of Email design are archived here. These are a subdivision of email marketing.
+            [cat_name] => Email Design
+            [category_nicename] => email-design
+            [category_parent] => 0
+        )
+
+)
+</div>        <div class="you-may-like three-col-help">
+            <div class="main">
+                <h2><span>YOU MAY</span> ALSO LIKE</h2>
+                <div class="row row-15">
+                    
+                    <div class="col-lg-4">
+                        <div class="gride-block">
+                            <a href="https://email.uplers.com/blog/minimalist-email-design-inspirations/" title="" style="background-image:url(https://email.uplers.com/blog/wp-content/uploads/2017/11/Minimalist-Email-Design.jpg)">
+                            </a>
+                            <div class="gride-content">
+                                <a href="https://email.uplers.com/blog/minimalist-email-design-inspirations/" title="Minimalist Email Design – A Timeless Style You Must Embrace">Minimalist Email Design – A Timeless Style You Must Embrace</a>
+                                <div class="blog--links">
+                                                                        <ul>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/minimalist-email-design-inspirations/" title="2:30 am" rel="bookmark nofollow"><time class="entry-date" datetime="2022-03-07T02:30:00+05:30">Mar 07, 2022</time></a>                                        </li>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/category/email-design/" rel="nofollow">Email Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/minimalist-email-design-inspirations/" rel="nofollow"><span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 5</span> <span class="rt-label rt-postfix"></span></span>MIN READ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-lg-4">
+                        <div class="gride-block">
+                            <a href="https://email.uplers.com/blog/anatomy-of-a-winning-email-newsletter-examples-to-inspire-you/" title="" style="background-image:url(https://email.uplers.com/blog/wp-content/uploads/2020/01/Anatomy-of-a-winning-email-newsletter.jpg)">
+                            </a>
+                            <div class="gride-content">
+                                <a href="https://email.uplers.com/blog/anatomy-of-a-winning-email-newsletter-examples-to-inspire-you/" title="Anatomy of a Winning Email Newsletter (With Examples to Inspire You)">Anatomy of a Winning Email Newsletter (With Examples to Inspire You)</a>
+                                <div class="blog--links">
+                                                                        <ul>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/anatomy-of-a-winning-email-newsletter-examples-to-inspire-you/" title="5:43 am" rel="bookmark nofollow"><time class="entry-date" datetime="2020-01-16T05:43:15+05:30">Jan 16, 2020</time></a>                                        </li>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/category/email-design/" rel="nofollow">Email Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/anatomy-of-a-winning-email-newsletter-examples-to-inspire-you/" rel="nofollow"><span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 5</span> <span class="rt-label rt-postfix"></span></span>MIN READ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-lg-4">
+                        <div class="gride-block">
+                            <a href="https://email.uplers.com/blog/visual-hierarchy-vs-visually-aesthetic/" title="" style="background-image:url(https://email.uplers.com/blog/wp-content/uploads/2018/11/Design-Aesthetic.jpg)">
+                            </a>
+                            <div class="gride-content">
+                                <a href="https://email.uplers.com/blog/visual-hierarchy-vs-visually-aesthetic/" title="Email Template Design: Visual Hierarchy vs Visually Aesthetic">Email Template Design: Visual Hierarchy vs Visually Aesthetic</a>
+                                <div class="blog--links">
+                                                                        <ul>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/visual-hierarchy-vs-visually-aesthetic/" title="7:05 pm" rel="bookmark nofollow"><time class="entry-date" datetime="2018-11-23T19:05:49+05:30">Nov 23, 2018</time></a>                                        </li>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/category/email-design/" rel="nofollow">Email Design</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://email.uplers.com/blog/visual-hierarchy-vs-visually-aesthetic/" rel="nofollow"><span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span> <span class="rt-time"> 5</span> <span class="rt-label rt-postfix"></span></span>MIN READ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+    	
+	
+				
+	<div class="help-section four-col-help">
+           <div class="main">
+              <h2><span>WE CAN ALSO</span> HELP YOU WITH</h2>
+                <div class="row row-50">
+                    <div class="col-lg-3">
+                        <div class="content-wrap">
+                            <h4>Email Template <br>
+                            Productions
+                            </h4>
+                            <p style="">Transform your requirement into visually-appealing & high-converting email templates.</p>
+                            <div class="btn btn-border"><a href="https://email.uplers.com/email-template-production-services/" title="Email Template Productions" rel="nofollow">Learn More <span></span></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="content-wrap">
+                            <h4>EMAIL OPERATION <br>SUPPORT
+                            </h4>
+                            <p style="">Focus on your business strategy; let us handle the day-to-day operation of your email campaigns.</p>
+                            <div class="btn btn-border"><a href="https://email.uplers.com/email-operations-support-services/" title="Email Operation Support" rel="nofollow">Learn More <span></span></a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <div class="content-wrap">
+                            <h4>DEDICATED<br> RESOURCE TEAM
+                            
+                            </h4>
+                            <p style="">Eliminate the woes of hiring and training for resources with our dedicated team of scalable email experts.</p>
+                            <div class="btn btn-border"><a href="https://email.uplers.com/dedicated-team-price-model/" title="Dedicated Resource Team" rel="nofollow">Learn More <span></span></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="content-wrap">
+                            <h4>Digital<br>
+                            ASSETS
+                            </h4>
+                            <p style="">Get more from your paid marketing campaigns through conversion-driven landing pages and banners.</p>
+                            <div class="btn btn-border"><a href="https://email.uplers.com/digital-assets/" title="Digital Assets" rel="nofollow">Learn More <span></span></a></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+
+        //$('#subscribe-form-resorce').validate();
+
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).val()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+        jQuery('#copy-url').click(function(e) {
+            e.preventDefault();
+            copyToClipboard('#copy-text');
+            // var copyText = document.getElementById("copyText");
+            // copyText.select();
+            // copyText.setSelectionRange(0, 99999)
+            // document.execCommand("copy");
+            jQuery(this).siblings('span').fadeIn();
+            fadeOut_text();
+        });
+        function fadeOut_text(){
+            setTimeout(function(){
+                jQuery('#copy-url').siblings('span').fadeOut();
+            }, 2000);
+        }
+    });
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+
+        //$('#subscribe-form-resorce').validate();
+
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).val()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+        jQuery('#copy-url1').click(function(e) {
+            e.preventDefault();
+            copyToClipboard('#copy-text1');
+            // var copyText = document.getElementById("copyText");
+            // copyText.select();
+            // copyText.setSelectionRange(0, 99999)
+            // document.execCommand("copy");
+            jQuery(this).siblings('span').fadeIn();
+            fadeOut_text();
+        });
+        function fadeOut_text(){
+            setTimeout(function(){
+                jQuery('#copy-url1').siblings('span').fadeOut();
+            }, 2000);
+        }
+    });
+</script>
+<!-- </section> -->
+<!-- midd section ends here-->
+<!-- initialize push div for sticky footer starts here-->
+
+<div class="push"></div>
+<!-- initialize push div for sticky footer ends here-->
+<!-- </div> -->
+<!-- #page -->
+
+
+
+<!-- Footer New Start -->
+<footer>
+    <div id="footer-main">
+        <div class="main hidden-mob">
+            <div class="logo"><a href="https://email.uplers.com" title="Uplers Email"><img src="https://email.uplers.com/images/home/logo.svg" alt=""/></a></div>
+            <div class="link-listing-wrap">
+                <div class="row">
+                    <div class="mob-append-form"></div>
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <ul>
+                                    <li><a href="tel:+12136746665" title="+1 213 674 6665"> <i class="zmdi zmdi-phone-in-talk"></i> US : +1 213 674 6665</a></li>
+                                    <li><a href="tel:+442032867410" title="+44 20 3286 7410"> <i class="zmdi zmdi-phone-in-talk"></i> UK : +44 20 3286 7410</a></li>
+                                    <li><a href="tel:+61872006665" title="+61 8 7200 6665"> <i class="zmdi zmdi-phone-in-talk"></i> AUS : +61 8 7200 6665</a></li>
+                                    <li><a href="mailto:contact@uplers.com" title="Email Us"> <i class="zmdi zmdi-email-open"></i>contact@uplers.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul>
+                                    <li><a class="link-un" href="https://email.uplers.com/about-us/" title="About Us">About Us</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/email-service-provider-esp-integration/" title="Email Marketing Services">ESPs We Support</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/pricing/" title="Email Service Pricing">Email Service Pricing</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/holiday-calendar/" title="Holiday Calendar">Holiday Calendar</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul>
+                                    <li><a class="link-un" href="https://email.uplers.com/mailchimp-email-templates/" title="Email Template Production">Mailchimp Email Templates</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/klaviyo-email-templates/" title="Custom Email Templates">Klaviyo Email Templates</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/hubspot-email-templates/" title="Hire HTML Email Developers">Hubspot Email Templates</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/modular-email-templates-services/" title="Dedicated Resource Team">Modular Email Templates </a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <ul>
+                                    <li><a class="link-un" href="https://email.uplers.com/dedicated-team-price-model/" title="Free HTML Email Templates">Dedicated Resource Team</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/hire-dedicated-email-developer/" title="Mailchimp Email Templates">Hire HTML Email Developers</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/mailchimp-experts-developer/" title="PSD to Email HTML Conversion">Hire Mailchimp Email Experts</a></li>
+                                    <li><a class="link-un" href="https://email.uplers.com/salesforce-marketing-cloud-email-specialist/" title="Email Template Examples">Hire SFMC Email Specialists</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-right">
+                        <div class="btn-small btn-border"> <a href="https://email.uplers.com/contact-us/" title="Contact Us">Contact Us <span></span></a> </div>
+                        <div class="btn-small btn-border"> <a href="https://order.uplers.com/uplers/order" title="Order Now">Order Now <span></span></a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-section">
+                <div class="row row-flex">
+                    <div class="col-lg-4">
+                        <ul class="social-listing">
+                            <li><a href="https://www.facebook.com/email.uplers" title="Facebook" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
+                            <li class="twitter"><a href="https://twitter.com/email_uplers" title="Twitter" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/wearetheuplers" title="Linkedin" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/email_uplers/" title="Instagram" target="_blank"><i class="zmdi zmdi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8 text-right">
+                        <div class="subscribe-form">
+                            <div class="btn"> <small>Get latest email marketing content.</small> <a href="javascript:void(0)" title="Subscribe">Subscribe <span></span></a> </div>
+                            <!-- <form id="subscribe-form">
+                                <div class="feild">
+                                    <input type="text" name="name" placeholder="Name" tabindex="10">
+                                </div>
+                                <div class="feild">
+                                    <input type="text" name="email" placeholder="Email" tabindex="11">
+                                </div>
+                                <div class="submit-feild">
+                                    <input type="submit" value="SUBMIT" title="Submit" name="submit" tabindex="12"> <span></span>
+                                </div>
+                            </form> -->
+                            <div role="form" class="wpcf7" id="wpcf7-f36389-o3" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/blog/css-animation-email/#wpcf7-f36389-o3" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="36389" />
+<input type="hidden" name="_wpcf7_version" value="5.4.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f36389-o3" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7cf_hidden_group_fields" value="[]" />
+<input type="hidden" name="_wpcf7cf_hidden_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_visible_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_repeaters" value="[]" />
+<input type="hidden" name="_wpcf7cf_steps" value="{}" />
+<input type="hidden" name="_wpcf7cf_options" value="{&quot;form_id&quot;:36389,&quot;conditions&quot;:[],&quot;settings&quot;:{&quot;animation&quot;:&quot;yes&quot;,&quot;animation_intime&quot;:200,&quot;animation_outtime&quot;:200,&quot;conditions_ui&quot;:&quot;normal&quot;,&quot;notice_dismissed&quot;:false,&quot;notice_dismissed_update-cf7-5.8&quot;:true}}" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<div id="subscribe-form">
+<div class="row">
+<div class="col-lg-4">
+<div class="feild">
+                                        <span class="wpcf7-form-control-wrap firstname"><input type="text" name="firstname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span>
+                                    </div>
+</div>
+<div class="col-lg-4">
+<div class="feild">
+<span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" /></span>
+                                    </div>
+</div>
+<div class="col-lg-4">
+<div class="submit-feild">
+<span class="wpcf7-form-control-wrap pageurl" data-name="pageurl"><input type="hidden" name="pageurl" value="https://email.uplers.com/blog/blog/css-animation-email/" size="40" aria-invalid="false" autocomplete="off" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" /></span><br />
+                                        <input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit" /> <span></span>
+                                    </div>
+</div>
+</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>&copy; Copyright 2024 Uplers. <span>All rights reserved.</span></p>
+                    </div>
+                    <div class="col-lg-6 text-right">
+                        <ul>
+                            <li><a class="link-un" href="https://email.uplers.com/privacy/" title="Privacy Policy">Privacy Policy</a></li>
+                            <li><a class="link-un" href="https://uplers.com" title="Venture of Uplers">Venture of Uplers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="main hidden-des">
+            <div class="row">
+                <div class="footer-logo">
+                    <div class="col-lg-5">
+                        <div class="logo"><a href="https://email.uplers.com" title="Uplers Email"><img src="https://email.uplers.com/images/home/logo.svg" alt=""/></a></div>
+                    </div>
+                    <div class="col-lg-7 text-right">
+                        <div class="btn-small btn-border"> <a href="https://email.uplers.com/contact-us/" title="Contact Us">Contact Us <span></span></a> </div>
+                        <div class="btn-small btn-border"> <a href="https://order.uplers.com/uplers/order" title="Order Now">Order Now <span></span></a> </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="link-listing-wrap">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><a class="link-un" href="https://email.uplers.com/about-us/" title="About Us">About Us</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/services/" title="Our Services">Our Services</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/pricing/" title="Pricing">Pricing</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/portfolio/" title="Samples">Samples</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/email-template-production-services/" title="Email Template Production">Email Template Production</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/email-operations-support-services/" title="Email Operations Support ">Email Operations Support </a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><a class="link-un" href="https://email.uplers.com/digital-assets/" title="Digital Assets">Digital Assets</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/dedicated-team-price-model/" title="Dedicated Resource Team">Dedicated Resource Team</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/wallet-payment-model/" title="Wallet Model">Wallet Model</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/testimonials/" title="Clients">Clients</a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/email-marketing-for-agencies/" title="For Agencies ">For Agencies </a></li>
+                            <li><a class="link-un" href="https://email.uplers.com/resources/" title="Knowledge Center">Knowledge Center </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subscribe-section">
+                <div class="row row-flex">
+                    <div class="col-lg-12 text-right">
+                        <div class="subscribe-form" >
+                            <div class="footer-toggle">
+                                <!-- <form id="subscribe-form" class="subscribe-form1">
+                                    <div class="feild">
+                                        <input type="text" name="name" placeholder="Name" tabindex="10">
+                                    </div>
+                                    <div class="feild">
+                                        <input type="text" name="email" placeholder="Email" tabindex="11">
+                                    </div>
+                                    <div class="submit-feild">
+                                        <input type="submit" value="SUBMIT" title="Submit" name="submit" tabindex="12"> <span></span>
+                                    </div>
+                                </form> -->
+                                <div role="form" class="wpcf7" id="wpcf7-f36389-o4" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/blog/css-animation-email/#wpcf7-f36389-o4" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="36389" />
+<input type="hidden" name="_wpcf7_version" value="5.4.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f36389-o4" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7cf_hidden_group_fields" value="[]" />
+<input type="hidden" name="_wpcf7cf_hidden_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_visible_groups" value="[]" />
+<input type="hidden" name="_wpcf7cf_repeaters" value="[]" />
+<input type="hidden" name="_wpcf7cf_steps" value="{}" />
+<input type="hidden" name="_wpcf7cf_options" value="{&quot;form_id&quot;:36389,&quot;conditions&quot;:[],&quot;settings&quot;:{&quot;animation&quot;:&quot;yes&quot;,&quot;animation_intime&quot;:200,&quot;animation_outtime&quot;:200,&quot;conditions_ui&quot;:&quot;normal&quot;,&quot;notice_dismissed&quot;:false,&quot;notice_dismissed_update-cf7-5.8&quot;:true}}" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<div id="subscribe-form">
+<div class="row">
+<div class="col-lg-4">
+<div class="feild">
+                                        <span class="wpcf7-form-control-wrap firstname"><input type="text" name="firstname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span>
+                                    </div>
+</div>
+<div class="col-lg-4">
+<div class="feild">
+<span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" /></span>
+                                    </div>
+</div>
+<div class="col-lg-4">
+<div class="submit-feild">
+<span class="wpcf7-form-control-wrap pageurl" data-name="pageurl"><input type="hidden" name="pageurl" value="https://email.uplers.com/blog/blog/css-animation-email/" size="40" aria-invalid="false" autocomplete="off" class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden" /></span><br />
+                                        <input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit" /> <span></span>
+                                    </div>
+</div>
+</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>                            </div>
+                            <div class="btn"> <small>Get latest email marketing content.</small> <a href="javascript:void(0)" title="Subscribe">Subscribe <span></span></a> </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-call">
+                        <div class="link-listing-wrap">
+                            <ul>
+                                <li><a href="tel:+12136746665" title="+1 213 674 6665"> <i class="zmdi zmdi-phone-in-talk"></i> US : +1 213 674 6665</a></li>
+                                <li><a href="tel:+442032867410" title="+44 20 3286 7410"> <i class="zmdi zmdi-phone-in-talk"></i> UK : +44 20 3286 7410</a></li>
+                                <li><a href="tel:+61872006665" title="+61 8 7200 6665"> <i class="zmdi zmdi-phone-in-talk"></i> AUS : +61 8 7200 6665</a></li>
+
+                                <li><a href="mailto:email@uplers.com" title="Email Us"> <i class="zmdi zmdi-email-open"></i> email@uplers.com</a></li>
+                            </ul>
+                        </div>
+                        <ul class="social-listing">
+                            <li><a href="https://www.facebook.com/email.uplers" title="Facebook" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
+                            <li class="twitter"><a href="https://twitter.com/email_uplers" title="Twitter" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/email-uplers/" title="Linkedin" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/email_uplers/" title="Instagram" target="_blank"><i class="zmdi zmdi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright-section">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <span>&copy; Copyright 2024 Uplers. <span>All rights reserved.</span></span>
+                        <ul>
+                            <li><a class="link-un" href="https://email.uplers.com/privacy/" title="Privacy Policy">Privacy Policy</a></li>
+                            <li><a class="link-un" href="https://uplers.com" title="Venture of Uplers">Venture of Uplers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!-- Footer New end -->
+
+
+<!-- <p id="back-to-top" style="display: block; position: fixed; bottom: 20px;" class=""><a href="#top"><span></span></a></p> -->
+<script type="text/javascript" src="https://email.uplers.com/blog/wp-content/themes/uplers/js/validate.js"></script>
+
+<script type="text/javascript">
+    var j = jQuery.noConflict();
+    window.onload = function () {
+        // var selItem = sessionStorage.getItem("SelItem");
+        // j('#sort-item').val(selItem);
+    }
+    j('#sort-item').change(function () {
+        var selVal = j(this).val();
+        sessionStorage.setItem("SelItem", selVal);
+    });
+</script>
+<!-- Hotjar Tracking Code for https://emailmonks.com -->
+
+
+
+<!-- Start - Google Code for Remarketing Tag -->
+
+<!-- End - Google Code for Remarketing Tag -->
+
+
+
+<!-- DO NOT COPY THIS SNIPPET! &mdash; HubSpot Identification Code -->
+<script type="text/javascript">
+(function(d,w) {
+w._hsq = w._hsq || [];
+w._hsq.push(["setContentType", "blog-post"]);
+})(document, window);
+</script>
+<!-- End of HubSpot Identification Code &mdash; DO NOT COPY THIS SNIPPET! -->
+
+<!-- Start of Async HubSpot Analytics Code for WordPress v1.2.1 -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2700725.js"></script>
+<!-- End of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            
+            jQuery('div.category-article:nth-child(3n+3)').addClass('last');
+			  	
+            jQuery("#back-to-top").click(function(){
+                jQuery('body,html').animate({scrollTop:0},1000);
+                return false;
+            });
+            
+            jQuery(window).scroll(function(){	
+                if(jQuery(this).scrollTop()>100){
+                    jQuery('#back-to-top').fadeIn();
+                }else if(jQuery(this).scrollTop()<100){
+                    jQuery('#back-to-top').fadeOut();
+                } 
+            });	 
+        });
+    </script>
+    <script defer src="//assets.pcrl.co/js/jstracker.min.js"></script>
+    <script src="//tdcdn.blob.core.windows.net/toolbar/assets/prod/td.js" async data-trackduck-id="54b9f802404e193d7a491579"></script> 
+    <!-- Twitter Counter Script -->
+    <!-- <script defer type="text/javascript" src="//newsharecounts.s3-us-west-2.amazonaws.com/nsc.js"></script>
+    <script defer type="text/javascript">window.newShareCountsAuto="smart";</script>  -->
+    
+        <script type="text/javascript">
+    jQuery(window).load(function($) {
+        
+        var data = {
+            'action': 'fetch_monks_twitter_feeds',
+        };
+
+        // since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
+        jQuery.post('https://email.uplers.com/blog/wp-admin/admin-ajax.php', data, function(response) {
+            jQuery('.monks-tweet-list').html(response).slideDown('slow').css('background','#FFFFFF');
+        });    
+
+        
+    });
+    </script>
+        
+    
+    <script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/metronet-profile-picture/js/mpp-frontend.js' id='mpp_gutenberg_tabs-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/email.uplers.com\/blog\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/contact-form-7/includes/js/index.js' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/custom-banners/assets/js/jquery.cycle2.min.js' id='gp_cycle2-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/custom-banners/assets/js/custom-banners.js' id='custom-banners-js-js'></script>
+<script type='text/javascript' id='wpcf7cf-scripts-js-extra'>
+/* <![CDATA[ */
+var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/email.uplers.com\/blog\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/cf7-conditional-fields/js/scripts.js' id='wpcf7cf-scripts-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LdmXk8dAAAAAL5hnUEYa5mltQtDWU4YcdyH7gBH&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LdmXk8dAAAAAL5hnUEYa5mltQtDWU4YcdyH7gBH","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/plugins/contact-form-7/modules/recaptcha/index.js' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-includes/js/comment-reply.min.js' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/html5shiv.js' id='html5shiv-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/menu.js' id='menu-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/libs/handlebars/handlebars.js' id='handlebars-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/selection-sharer.js' id='selection_sharer-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/wm_equalHeight.js' id='wm_equalHeight-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/css_browser_selector.min.js' id='css_browser_selector.min-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/jquery.selectbox-0.2.js' id='jquery.selectbox-0.2-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/slick.min.js' id='slick.min-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/magnific-popup.js' id='magnific.min-js'></script>
+<script type='text/javascript' id='general-js-extra'>
+/* <![CDATA[ */
+var ajax_custom_data = {"ajaxurl":"https:\/\/email.uplers.com\/blog\/wp-admin\/admin-ajax.php","siteurl":"https:\/\/email.uplers.com\/blog","template_dir_uri":"https:\/\/email.uplers.com\/blog\/wp-content\/themes\/uplers"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/general.js' id='general-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/validations.js' id='validations-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/retina.js' id='retina-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-content/themes/uplers/js/jquery.sticky-kit.min.js' id='sticky-js'></script>
+<script type='text/javascript' src='https://email.uplers.com/blog/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+
+
+<!-- begin olark code -->
+<script type="text/javascript" async>
+
+
+    $(window).on('load', function() {
+        //console.log('load');
+        setTimeout(function(){
+
+            ;(function(o,l,a,r,k,y){if(o.olark)return; r="script";y=l.createElement(r);r=l.getElementsByTagName(r)[0]; y.async=1;y.src="//"+a;r.parentNode.insertBefore(y,r); y=o.olark=function(){k.s.push(arguments);k.t.push(+new Date)}; y.extend=function(i,j){y("extend",i,j)}; y.identify=function(i){y("identify",k.i=i)}; y.configure=function(i,j){y("configure",i,j);k.c[i]=j}; k=y._={s:[],t:[+new Date],c:{},l:a}; })(window,document,"static.olark.com/jsclient/loader.js");
+            olark.identify('7515-333-10-5478');
+
+        }, 10000);
+
+    });
+
+</script>
+
+
+<!-- end olark code -->
+
+<!-- Custom js for get URL in hidden field Form id 27535 C7 Start-->
+<script>
+    jQuery(document).ready(function(){
+        var url = window.location.href;
+        //console.log("url"+url);
+        jQuery('input.wpcf7-form-control.wpcf7-hidden').attr("value",url) ;
+    });
+</script>
+<!-- Custom js for get URL in hidden field Form id 27535 C7 end-->
+
+</body></html>
+<style type="text/css">
+    input#eur_chk {
+        -webkit-appearance: checkbox;
+    }
+
+    span.chk_lab {
+        color: #fff;
+        padding-left: 10px;
+        display: inline;
+        padding-bottom: 2px !important;
+    }
+
+    span.chk_lab::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    .get_in_touch_title {
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Lato;
+    }
+.blog-slider.cust {
+    display: none;
+}
+
+</style>
+<script>
+$(document).ready(function(){
+
+  $(document).scroll(function(){
+
+    var footerSelector = '.blog-social-wrapper';
+    var socialBarSelector = 'ul.social-links.blog-details-social';
+
+    var bottomViewPort = $(window).scrollTop()+$(window).height();
+    var footerTop = $(footerSelector ).offset().top;
+
+    if( bottomViewPort>=footerTop){
+      $(socialBarSelector).fadeOut();
+    }else{
+      $(socialBarSelector).fadeIn();
+    }
+  });
+
+});</script>
+<!-- =^..^= Cached =^..^= -->
